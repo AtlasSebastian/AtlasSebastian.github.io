@@ -1,2 +1,2 @@
-# AtlasSebastian.github.io
-Chinese version of the website
+# Personal Website
+This website is still under development.
