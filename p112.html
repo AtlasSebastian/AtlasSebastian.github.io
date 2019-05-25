@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en" class="full-height">
+	 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/my.css">
+	
+	
+    <title>Sebastian Yang</title>
+  </head>
+	<body class="bg-lighter">
+  
+	
+	<!--nav bar -->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-darklight fixed-top scrolling-navbar">
+	<div class="container">
+	
+	<a class="navbar-brand" href="index.html"><img src="images/seb.png" width="80" height="30" class="d-inline-block align-top" alt="">
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+	    
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutMe.html">About me</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="dumbSeb.html">The Dumb Sebastian</a>
+          <a class="dropdown-item" href="smartSeb.html">The Smart Sebastian</a>
+        </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+	   
+    </ul>
+	</div>
+	</div>
+	</nav>
+	
+	<div>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  
+  
+  
+  <div class="carousel-inner" role="listbox">
+	  
+	 <div class="carousel-item  active">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100"  src="images/112/8.png" alt="Third slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <div class="view">
+        <img class="d-block w-100" src="images/112/3.png" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+    </div>
+
+  </div>
+  
+  
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+	</div>
+
+    <main>
+          <div class="container-fluid bg-lighter" >
+	 
+	        <div class="container w-75 mb-4">
+            <!--Grid row-->
+            <div class=" row">
+              <!--Grid column-->
+              <div class="col-12">
+	             <h1 class="text-center  mt-4 scroUp">15112 Crazy Tanks</h1>
+              </div>
+              
+              
+              
+              <div class="col ml-2  mt-3 scroUp">
+                  <h2>Overview</h2>
+                  <p>Fall 2018</p>
+                  <p>
+                      这个项目献给 斯科特·陈 <br />
+                      感谢你在高中作为我的 sametable
+                  </p>
+
+                  <p>
+                      这是 CMU 15-112计算机基础和编程的学期项目
+                      这是我开发的第一款电子游戏。它是在python中编程的，并且使用了pygame包。这是对flash游戏坦克大战的再现。我选择重现坦克大战是因为我以前经常和我高中的朋友玩这个游戏。
+                  </p>
+
+                  <p>这一页是游戏的一个细目，所以未来的15112名学生可以参考，而不必通读我写的无聊代码。</p>
+                   <p>你可以在这里看到一个3分钟的游戏预告片</p>
+                   <iframe src="//player.bilibili.com/player.html?aid=53536376&cid=93657975&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>       
+                   <br>
+
+                   <h2 class="text-center">总体架构：</h2>
+                   <p>这个游戏有7个不同的场景: StartScreen, SinglePlayerMode, TwoPlayerMode, ThreePlayerMode, InstructionsScreen, RankScreen, and EasterMode.</p>
+                   <p>
+                       因为PyGame不支持如Unity中的场景切换，所以我编写了一些场景切换代码。核心思想是在不同模式下调用不同的redrawall或timerfired。这个方法在15112课上有所提及，所以我不会在这里进一步阐述。您可以在这里了解更多信息：http://www.krivers.net/15112-s18/notes/notes-animations-demos.html  (Mode Demo)</p>
+                       <br>
+                       <table class="text-center">
+                           <tr>
+                               <td><a href="images/112/1.png"> <img src="images/112/1.png" class="w-100"></a></td>
+
+                           </tr>
+                           <tr><td>Mode Demo</td></tr>
+                       </table><br>
+
+                       <h2 class="text-center">多人模式：</h2>
+
+                       <p>本地双玩家多人模式是本游戏的MVP。棘手的部分是如何检查坦克和地图以及子弹和地图之间的碰撞。地图生成为PNG图像，墙为黑色像素，通道为透明背景（零α通道）。而坦克只是一个卡通坦克的图片。</p>
+                       <img src="images/112/4.png" class="w-100" /><br /><br />
+
+                 <p>我的许多在2019年春季的112节课上的朋友，试图在游戏中使用pygame.sprite.collide（self，map）。这不能起作用，因为sprite.collide将地图视为sprite，也就是一个整体图像。因为地图在你的游戏对象下面（在我的例子中游戏对象是坦克），你的游戏对象总是会与地图发生碰撞。</p>
+                 <p>
+                     然而，有一个称为pygame.sprite.collide_mask（self，map）的方法。这可以让游戏正常工作，因为此函数为地图创建一个“mask”。也就是说，它创建了一个新的“图像”，其像素仅为非零阿尔法通道。因此，在我的例子中，碰撞只考虑黑墙，而透明的通道不会被考虑。
+                 </p>
+                 <p>在MVP中，您可能需要注意的另一件事是帧速率。在我的第一个原型中，每秒的子弹速度比每秒的帧速率快。由于速度快，它可以在下次碰撞检查之前移动以通过墙的宽度。因此，我想要的弹性墙效果无法实现。起初，我认为这是一个编程问题，所以我一直在尝试调整碰撞方法。所以请注意，帧速率可能会影响碰撞测试。</p>
+                  <img src="images/112/5.png" class="w-100" /> <br /><br />
+                 <p>
+                     我在第一次迭代中完成了一个没有人工智能的坦克。在第二次迭代中完成两人模式后，我在第三次迭代中添加了三人模式。第三个玩家将使用鼠标导航并右击射击子弹。一旦你准备好了所有的基本代码，这就不难实现了
+                 </p>
+                     <br /><br />
+                 <h2 class="text-center">单人模式（游戏AI）:</h2>
+                 <p>哦，男孩，这是比赛中最难的部分。我需要设计一个能导航、射击和躲避子弹的人工智能坦克。理论上，如果我将地图存储在一个二维列表中，我就可以使用回溯函数并定期更新人工智能的路径。算法不会很难编写。但问题是，我没有将地图存储在二维列表中。</p>
+                   <img src="images/112/6.png" class="w-100" /><br /><br />
+                 <p>为了简化我的MVP，我最初使用了地图的一个PS的图像。在我的第二次迭代中，我想不出一种使用回溯生成地图的有效方法。这是因为我需要避免封闭任何尺寸的容器，这样坦克就不会被困在一个区域。</p>
+                 <p>为了保持项目的运行，我选择了避免这个问题，所以没有用自动生成的地图。在我的第二次迭代中，我只是让人工智能坦克在每次撞到墙上时都简单地右转。这将使人工智能坦克似乎在四处移动。你可能已经猜到了，缺点是有时坦克会被困在范围里绕圈。 </p>
+                 <p>在第三次迭代中，我编写了一个“光线投射”函数。基本上，我会定期向8个方向发射8颗不同的子弹。这些子弹不会被画出来。通过计算时间，这种光线投射可以让坦克知道哪个方向有更多的空间，哪个方向是死胡同。然后坦克可以根据这些信息做出转弯的决定。</p>
+                  <img src="images/112/2.png" class="w-100"/>
+                  <br /><br />
+                        <p>经过长时间的微调，人工智能的游戏运行得很好。我觉得你总是可以尝试想出创造性的方法来实现游戏人工智能。 </p>
+                         <h2 class="text-center">彩蛋：</h2>
+                         <p>在第四次迭代中，我添加了一些改变坦克大小和速度的powerup、一个在本地存储过去分数的排名界面，以及一个彩蛋模式。你可以通过在启动屏幕上乱转来触发复活节模式。随意玩玩，尝试打破游戏：） </p>
+                              </div>
+              <!--Grid column-->
+              
+          
+			 
+            </div>
+            <!--Grid row-->
+            
+			<div class="mx-auto" style="width: 200px;">
+			<a href="contact.html" class="btn btn-rounded btn-dark">
+                    <i class="fas fa-home"></i> Contact Me
+                 </a>
+			</div>
+	   	      
+           
+          </div>
+          <!--End container-->
+             
+          </div>
+           <!--End container-fluid-->
+
+        </main>
+        <!--Main Layout-->
+	
+
+		 <div include-html="footer.html"></div> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+       <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scrollreveal.js"></script>
+	<script src="js/my.js"></script> 
+	<script>
+		var slideUp = {
+	    distance: '150%',
+	    origin: 'bottom',
+	    opacity: null,
+	    duration: 700,
+		};
+		ScrollReveal().reveal('.scroUp',slideUp);
+	</script>
+
+	
+	 <script>
+	includeHTML();
+	</script> 
+	
+  </body>
+</html>
