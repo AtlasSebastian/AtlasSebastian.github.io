@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en" class="full-height">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	   <meta name="keywords" content="Sebastian Yang, CMU, Yukai, 杨毓恺">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+	<link href="/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/my.css">
+
+  
+  <title>15112 | Sebastian Yang</title>
+  
+
+  </head>
+
+	<body>
+
+    
+<!--nav bar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-darklight fixed-top scrolling-navbar">
+<div class="container">
+
+<a class="navbar-brand" href="/index"><img src="/images/static/seb.png" width="80" height="30"  class="d-inline-block align-top" alt="">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item ">
+              <a class="nav-link" href="/index">Home</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link" href="/about">About me</a>
+          </li>
+          <li class="nav-item dropdown  active ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/dumbSeb">Borning Stuff</a>
+                  <a class="dropdown-item" href="/smartSeb">Interesting Stuff</a>
+              </div>
+          </li>
+
+          <li class="nav-item ">
+              <a class="nav-link" href="/contact ">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://yangyukai.com">中文</a>
+          </li>
+
+      </ul>
+</div>
+</div>
+</nav>
+
+    
+    <div>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<!--Indicators-->
+
+<ol class="carousel-indicators">
+  
+  <li data-target="#carousel-example-2" data-slide-to="1"  class="active" ></li>
+  
+  <li data-target="#carousel-example-2" data-slide-to="2" ></li>
+  
+</ol>
+
+<!--/.Indicators-->
+<!--Slides-->
+
+<div class="carousel-inner" role="listbox">
+  
+ <div class="carousel-item   active ">
+    <div class="view">
+      <img class="d-block w-100"  src="/images/projects/15112//Cover.png" alt=" Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this ">
+      <div class="mask rgba-black-light"></div>
+    </div>
+  </div>
+  
+ <div class="carousel-item  ">
+    <div class="view">
+      <img class="d-block w-100"  src="/images/projects/15112//Start_Screen.png" alt=" Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this ">
+      <div class="mask rgba-black-light"></div>
+    </div>
+  </div>
+  
+</div>
+<!--/.Slides-->
+
+<!--Controls-->
+
+<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+<!--/.Controls-->
+
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+
+    
+
+    <body class="bg-lighter ">
+<h1 class="text-center  mt-4 scroUp"> 15112 Crazy Tanks </h1>
+
+<div class="mainText">
+<div class="container w-75 mb-4">
+<h3>Overview</h3>
+<p>2018 Fall </p>
+   <p>这个项目献给 斯科特·陈
+感谢你在高中作为我的“sametable”</p>
+
+<p>这是 CMU 15-112计算机基础和编程的学期项目 这是我开发的第一款电子游戏。它是在python中编程的，并且使用了pygame包。这是对flash游戏坦克大战的再现。我选择重现坦克大战是因为我以前经常和我高中的朋友玩这个游戏。</p>
+
+<p>这一页是游戏的一个细目，所以未来的15112名学生可以参考，而不必通读我写的代码就可以知道我是怎么实现游戏的。</p>
+
+<p>你可以在这里看到一个3分钟的游戏预告片：</p>
+<iframe src="//player.bilibili.com/player.html?aid=53536376&amp;cid=93657975&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="w-100" height="500px"> </iframe>
+<p><br /></p>
+
+<h2 class="no_toc" id="目录">目录</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#总体架构" id="markdown-toc-总体架构">总体架构</a></li>
+  <li><a href="#多人模式" id="markdown-toc-多人模式">多人模式</a></li>
+  <li><a href="#游戏ai" id="markdown-toc-游戏ai">游戏AI</a></li>
+  <li><a href="#彩蛋" id="markdown-toc-彩蛋">彩蛋</a></li>
+  <li><a href="#值得改进的地方" id="markdown-toc-值得改进的地方">值得改进的地方</a></li>
+</ul>
+
+<h2 id="总体架构">总体架构</h2>
+
+<p>这个游戏有7个不同的场景: StartScreen, SinglePlayerMode, TwoPlayerMode, ThreePlayerMode, InstructionsScreen, RankScreen, and EasterMode.</p>
+
+<p>因为PyGame不支持如Unity中的场景切换，所以我编写了一些场景切换代码。核心思想是在不同模式下调用不同的redrawall或timerfired。这个方法在15112课上有所提及，所以我不会在这里进一步阐述。您可以在这里了解更多信息：<a href="http://www.krivers.net/15112-s18/notes/notes-animations-demos.html"> Mode Demo </a>
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/15112/Mode_Demo.png" title="" target="_blank">
+    
+        <img src=" /images/projects/15112/Mode_Demo.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Mode Demo</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h2 id="多人模式">多人模式</h2>
+
+<p>本地双玩家多人模式是本游戏的MVP。棘手的部分是如何检查坦克和地图以及子弹和地图之间的碰撞。地图生成为PNG图像，墙为黑色像素，通道为透明背景（零α通道）。而坦克只是一个卡通坦克的图片。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/15112/Two_Player_Mode.png" title="" target="_blank">
+    
+        <img src=" /images/projects/15112/Two_Player_Mode.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Two Player Mode</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<p>我的许多在2019年春季的112节课上的朋友，试图在游戏中使用<code class="highlighter-rouge">
+pygame.sprite.collide(self,map)</code>
+。这不能起作用，因为sprite.collide将地图视为sprite，也就是一个整体图像。因为地图在你的游戏对象下面（在我的例子中游戏对象是坦克），你的游戏对象总是会与地图发生碰撞</p>
+
+<p>然而，有一个称为<code class="highlighter-rouge">pygame.sprite.collide_mask（self，map）</code>的方法。这可以让游戏正常工作，因为此函数为地图创建一个“mask”。也就是说，它创建了一个新的“图像”，其像素仅为非零阿尔法通道。因此，在我的例子中，碰撞只考虑黑墙，而透明的通道不会被考虑。</p>
+
+<p>在MVP中，您可能需要注意的另一件事是帧速率。在我的第一个原型中，每秒的子弹速度比每秒的帧速率快。由于速度快，它可以在下次碰撞检查之前移动以通过墙的宽度。因此，我想要的弹性墙效果无法实现。起初，我认为这是一个编程问题，所以我一直在尝试调整碰撞方法。所以请注意，帧速率可能会影响碰撞测试。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/15112/Three_Player_Mode.png" title="" target="_blank">
+    
+        <img src=" /images/projects/15112/Three_Player_Mode.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Three Player Mode</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<p>我在第一次迭代中完成了一个没有人工智能的坦克。在第二次迭代中完成两人模式后，我在第三次迭代中添加了三人模式。第三个玩家将使用鼠标导航并右击射击子弹。一旦你准备好了所有的基本代码，这就不难实现了</p>
+
+<h2 id="游戏ai">游戏AI</h2>
+
+<p>哦，这是游戏中最难的部分。我需要设计一个能导航、射击和躲避子弹的人工智能坦克。理论上，如果我将地图存储在一个二维列表中，我就可以使用回溯函数并定期更新人工智能的路径。算法不会很难编写。但问题是，我没有将地图存储在二维列表中。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/15112/AI_Mode.png" title="" target="_blank">
+    
+        <img src=" /images/projects/15112/AI_Mode.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">AI Mode</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<p>为了简化我的MVP，我最初使用了地图的一个PS的图像。在我的第二次迭代中，我想不出一种使用回溯生成地图的有效方法。这是因为我需要避免封闭任何尺寸的容器，这样坦克就不会被困在一个区域。</p>
+
+<p>为了保持项目的运行，我选择了避免这个问题，所以没有用自动生成的地图。在我的第二次迭代中，我只是让人工智能坦克在每次撞到墙上时都简单地右转。这将使人工智能坦克似乎在四处移动。你可能已经猜到了，缺点是有时坦克会被困在范围里绕圈。</p>
+
+<p>在第三次迭代中，我编写了一个“光线投射”函数。基本上，我会定期向8个方向发射8颗不同的子弹。这些子弹不会被画出来。通过计算时间，这种光线投射可以让坦克知道哪个方向有更多的空间，哪个方向是死胡同。然后坦克可以根据这些信息做出转弯的决定。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/15112/Ray_Casting.png" title="" target="_blank">
+    
+        <img src=" /images/projects/15112/Ray_Casting.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Ray Casting</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<p>经过长时间的微调，人工智能的游戏运行得比之前好了很多很多。我觉得你总是可以尝试想出创造性的方法来实现游戏人工智能。</p>
+<h2 id="彩蛋">彩蛋</h2>
+
+<p>在第四次迭代中，我添加了一些改变坦克大小和速度的powerup、一个在本地存储过去分数的排名界面，以及一个彩蛋模式。你可以通过在启动屏幕上乱转来触发复活节模式。随意玩玩，尝试打破游戏：）</p>
+
+<h2 id="值得改进的地方">值得改进的地方</h2>
+
+<p>如果我有更多的时间，我会尝试写出一个地图生成算法。这将使游戏有随机地图，同时游戏人工智能也可以更有趣。加入两个人工智能坦克相互战斗的模式也会很有趣。</p>
+
+
+</div>
+<div class="mx-auto pb-3" style="width: 200px;">
+<a href="/contact" target="_blank" class="btn btn-rounded btn-dark">
+              <i class="fas fa-home"></i> Contact Me
+           </a>
+</div>
+
+</div>
+</body>
+
+
+    <footer class="page-footer font-small bg-dark" style="overflow: hidden;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+		<div class="row"><p>  </p></div>
+      <!-- Grid row -->
+      <div class="row mt-5">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Mailing Address</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Carnegie Mellon University<br><br>
+			 5032 Forbes Avenue <br><br>
+			 SMC 1005                 <br><br>
+			 Pittsburgh, PA 15289<br>
+			 </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+	        杨毓恺<br>
+            Sebastian Yang
+          </p>
+          <p>
+            Email: SebastianYang@outlook.com
+          </p>
+          <p>
+            Linkedin: <br>
+            <a href="http://linkedin.com/in/sebastian-yang-528805170" target="_blank"> Please introduce yourself with a custom note</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="/index">Home</a>
+          </p>
+          <p>
+            <a href="/about">About Me</a>
+          </p>
+          <p>
+            <a href="/smartSeb">Portfolio</a>
+          </p>
+          <p>
+            <a href="/contact">Contact</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Wechat 公众号</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><br>
+          <a href="/images/static/qr.JPG" target="_blank"><img src="/images/static/qr.JPG" class="w-75"/></a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center mt-2 py-3">© 2019 Copyright:
+      <a href="/index"> Sebastian Yang</a>
+      <p> Yukai Presents</p>
+
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- MDB core JavaScript -->
+	<script type="/text/javascript" src="js/mdb.min.js"></script>
+    <script src="/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/scrollreveal.js"></script>
+	<script src="/js/my.js"></script>
+	<script>
+		var slideUp = {
+	    distance: '150%',
+	    origin: 'bottom',
+	    opacity: null,
+	    duration: 700,
+		};
+		ScrollReveal().reveal('.scroUp',slideUp);
+	</script>
+
+
+
+
+</html>

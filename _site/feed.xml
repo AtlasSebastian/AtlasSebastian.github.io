@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-14T19:45:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+
+&lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是，我们没有和BigSkinny有正式的雇佣关系，所以下述的所有内容均为网络公开信息不受任何保密协议保护。来看看我们的故事吧：
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/Ad.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/Ad.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Big Skinny's Ad&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#背景&quot; id=&quot;markdown-toc-背景&quot;&gt;背景&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#问题&quot; id=&quot;markdown-toc-问题&quot;&gt;问题&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#我们的建议&quot; id=&quot;markdown-toc-我们的建议&quot;&gt;我们的建议&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#市场宣传&quot; id=&quot;markdown-toc-市场宣传&quot;&gt;市场宣传&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#全新网页设计&quot; id=&quot;markdown-toc-全新网页设计&quot;&gt;全新网页设计&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#交互式钱包选择指南&quot; id=&quot;markdown-toc-交互式钱包选择指南&quot;&gt;交互式钱包选择指南&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#一个用户故事&quot; id=&quot;markdown-toc-一个用户故事&quot;&gt;一个用户故事&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#credits&quot; id=&quot;markdown-toc-credits&quot;&gt;Credits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;Big Skinny是一家销售瘦钱包的电商公司。由于其独特的材料，该公司可以生产出令人惊讶的薄和轻钱包，也防水，可以机洗。&lt;/p&gt;
+
+&lt;p&gt;这似乎是一个伟大的产品，但实际上，这家公司的销售额直线下降，其yelp页面充满了负面的一星评论。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/Bad_Reviews.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/Bad_Reviews.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;那么，到底出了什么问题呢?&lt;/p&gt;
+&lt;h2 id=&quot;问题&quot;&gt;问题&lt;/h2&gt;
+&lt;p&gt;通过对公司的研究，我和我的团队总结出了三个主要问题。第一个问题: 第一个是糟糕的网站设计。网页设计的不是很人性化，用户很难在网页里导航，同时网页包含了太多的文本和选项。下面是网页的主页截图 ，你可以点击这里 &lt;a href=&quot;https://www.bigskinny.net&quot;&gt;这里&lt;/a&gt;体验一下。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+    &lt;a href=&quot;https://www.bigskinny.net&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+      
+        &lt;img src=&quot; /images/projects/BigSkinny/index.jpeg&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Home Page of Big Skinny&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;这是当我们接手时候他们网页的样子，不同的组件没有对齐，标签和按钮令人困惑(“卡盒+ $ CLIPS”是什么意思??)。整个网站给我的印象像是一个在最后一刻完成的高中项目。由于糟糕的用户界面设计，通过在线广告重定向到这个网站流量，真正成为客户的转化率必然很低。&lt;/p&gt;
+
+&lt;p&gt;第二个问题是缺少目标客户群。在它的网站上，它试图瞄准男性、女性、旅行者、警察、青少年、商人，以及一些奇奇怪怪的客户群。比如说“纸表”、“不锈钢网钱包梳子”这些对钱包公司来说毫无关系的产品。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/page.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/page.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;我觉得Big Skinny是教科书中经典的负面教材，它试图适应所有市场。通过提供40多个钱包供人们选择，以及大量不必要的产品。该公司试图取悦所有人，但最终没有赢得任何人的欢心。&lt;/p&gt;
+
+&lt;p&gt;三是数据库管理不善。在yelp的页面上，很多人因为2010年的一件事留下了负面评论。在这起事件中，超过4000人通过Big Skinny的网站订购了钱包。但由于如Big Skinny首席执行官基里尔·亚历山德罗夫所说 “在线促销的一个小故障”，大部分钱包都是免费赠送的。自那以后，促销优惠券的技术问题出现了多次，从2013年到2017年都有发生。这可以归因于不理想的数据库结构和管理。&lt;/p&gt;
+
+&lt;h2 id=&quot;我们的建议&quot;&gt;我们的建议&lt;/h2&gt;
+
+&lt;p&gt;为了提高Big Skinny的销售额，我们首先需要重塑公司的品牌。因此，我们确定了一个目标客户群体:年轻旅行者。这是因为Big Skinny的防水薄钱包适合旅行者和徒步旅行者的需要。然后，我们发现了它目前网站存在的三个主要问题:冗长的文字、杂乱无章的布局、以及太多的产品选择，使客户无法将范围缩小到一个产品。 为了吸引和帮助更多年轻旅行者购买钱包，我们通过直接针对年轻旅行者开展在线营销活动、重新设计我们的网站、来提供以年轻人为中心的用户体验。最后，我们提出了一个新的数据库关系系统，希望可以避免进一步的优惠券问题&lt;/p&gt;
+&lt;h3 id=&quot;市场宣传&quot;&gt;市场宣传&lt;/h3&gt;
+&lt;p&gt;为了吸引年轻的Z一代旅行者，我们发起了“为勇敢无畏的人而建”的在线营销活动。作为该活动的一部分，Big Skinny将需要至少一个人专门为未来的广告持续不断地创建新内容和综合客户评价。该活动的一部分将包括面向所有平台的新媒体，比如针对年轻旅行者群体的Facebook视频广告。&lt;/p&gt;
+
+&lt;h3 id=&quot;全新网页设计&quot;&gt;全新网页设计&lt;/h3&gt;
+&lt;p&gt;在我们用广告吸引客户到我们的网站后，我们需要提供一个易于使用的用户体验。因此，我们首先重新设计了网站，以一种干净和易于遵循的方式组织其信息架构。我们设计了一个清晰的导航条，在保留基本信息的同时，将索引页中的单词从200个减少到50个左右。通过配以图片，我们可以让客户更容易读懂。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/New_Index.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/New_Index.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;交互式钱包选择指南&quot;&gt;交互式钱包选择指南&lt;/h3&gt;
+&lt;p&gt;此外，为了帮助客户将他们的选择范围从40多个钱包设计缩小到一个钱包，我们设计了一个交互式钱包选择指南。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/Selection_Guide.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/Selection_Guide.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;
+最后，我们提出了一个新的数据库关系系统，可以跟踪优惠券记录，客户购买历史，以及库存。&lt;/p&gt;
+
+&lt;h2 id=&quot;一个用户故事&quot;&gt;一个用户故事&lt;/h2&gt;
+
+&lt;p&gt;假设Jack是一个20岁的大学学生， 有一天，他在浏览Facebook时，看到了一个关于这个Big Skinny的短片。这个视频实际上是我们在Facebook上购买的在线营销活动的广告。 在视频的最后，他看到一行写着“为勇敢的人而建”。作为一名旅行者，他受到启发，点击了我们网站的链接。&lt;/p&gt;
+
+&lt;p&gt;当他浏览我们的网站时，他看到的第一件事就是这张鼓舞人心的图片。 就在他要去买一个的时候，他看到了钱包选择指南并点击了它。 在那里，他可以选择自己的偏好，网站会提供推荐。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/question.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/question.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;
+“哇，这些建议看起来很棒。让我看看这个钱包。”&lt;/p&gt;
+
+&lt;p&gt;在产品信息页面，我们简化了所有的产品信息。因此，顾客可以快速了解更多关于钱包和下订单。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/BigSkinny/recommand.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/BigSkinny/recommand.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;
+“这看起来不错。我要了!”&lt;/p&gt;
+
+&lt;p&gt;这是一笔交易的结束，但不是我们与该客户关系的结束。 使用我们的数据库系统，在Jack购买第一个钱包一周后，我们将推荐第二个钱包类别，比如一个不同于最初购买的皮钱包，并在一封电子邮件中宣传，“一个在户外，一个在室内。” 来鼓励用户二次购买&lt;/p&gt;
+
+&lt;p&gt;综上所述，通过整合市场调研、数据库设计和网站设计，该解决方案将突出Big Skinny的优势，提升客户体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;在我们为期两周的学期项目中，我的角色有点像团队中的“scrum master”。我制定了总体目标，和每个人沟通他们的设计，给他们提供反馈，确保生产时间表是有效的，并跟踪我们的学期项目的范围。&lt;/p&gt;
+
+&lt;p&gt;由于我们四个人不能经常见面，所以我协调了团队，确保我们都在同一个页面上，并且案例分析、网页样板和ERD紧密集成。另一方面，我的朋友Christine, Megan和Jonathan负责实际撰写工作。谢谢你所做的一切努力!&lt;/p&gt;</content><author><name></name></author><category term="Leadership" /><category term="Web_Design" /><category term="All" /><summary type="html">这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。</summary></entry><entry><title type="html">APA</title><link href="http://localhost:4000/projects/2015/fall/APA" rel="alternate" type="text/html" title="APA" /><published>2019-08-13T14:41:23-04:00</published><updated>2019-08-13T14:41:23-04:00</updated><id>http://localhost:4000/projects/2015/fall/APA</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/APA">&lt;p&gt;我认为动物应该被道德的对待.&lt;/p&gt;
+
+&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦，所以我的工作重点是抵制动物杂技。 我于2016年当选为学校动物保护协会会长。然后，我带领一支由15名学生组成的团队发起了”Not Born to Perform”的活动，以阻止厦门的动物杂技。&lt;/p&gt;
+
+&lt;p&gt;在整个活动中，我组织了慈善义卖和课堂演讲。 我们与学校高层争论停止到当地动物马戏团的学校春秋游，最后我们同时在厦门的5个不同公共区域举办慈善表演，有超过120名学生志愿者参与，捐赠所有获得的善款给PETA香港。&lt;/p&gt;
+
+&lt;p&gt;这是我们的故事：
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/APA/sign.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/APA/sign.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt; &quot;I promise I will never visit animal circuses.&quot; &lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#第一阶段在课堂上&quot; id=&quot;markdown-toc-第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第二阶段在校园里&quot; id=&quot;markdown-toc-第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第三阶段在社会中&quot; id=&quot;markdown-toc-第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/h2&gt;
+
+&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦。 因此，我从不喜欢动物杂技的想法。 所以当我了解当地政府决定投资约1亿人民币（1500万美元）建造世界上最大的动物马戏团“厦门灵玲国际马戏”时，我感到非常不舒服。&lt;/p&gt;
+
+&lt;p&gt;该决定已由政府做出。 由于示威游行和上诉不是很“中国特色”，我专注于劝阻公众参观该马戏团。 而我最容易接触到一群人，就是我的同学。&lt;/p&gt;
+
+&lt;p&gt;所以，我写了一篇演讲，并在APA教我的队友如何演讲呈献。 然后我们与学校领导交谈，并在每个教室展示我们的演讲。 最后，我们收到了100多名学生的签名，他们发誓永远不会访问动物马戏团。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/APA/sign2.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/APA/sign2.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Signatures from students&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/h2&gt;
+
+&lt;p&gt;在我们演讲后几个月，我们当地政府的教育部门决定将灵灵马戏团作为许多公立学校学校旅行的目的地。&lt;/p&gt;
+
+&lt;p&gt;说我们不开心将是轻描淡写。我们很生气。&lt;/p&gt;
+
+&lt;p&gt;我将我的团队分成两组。一组专注于联系学校和政府官员，试图改变目的地。但我们知道，由于当地政府是马戏团的投资者之一，这件事成功机会很小。另一组则专注于校园范围的慈善活动，以提高动物保护意识。&lt;/p&gt;
+
+&lt;p&gt;我们设计了许多商品，并在我们的校园慈善拍卖会上出售。然后我们再次回到教室，提出我们的想法并劝阻学生参与。但是由于我们在高中的3年时间里只有2次学校旅行，所以很难劝阻学生不参加。因此，我改变了演讲方式，把主题从“拒绝马戏团”改成“我最后一次去马戏团”。我们让学生思考如果他们是动物他们感觉如何，并希望他们把这次去动物马戏团作为他们的第一次也是最后一次。&lt;/p&gt;
+
+&lt;div class=&quot;row text-center&quot;&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch1.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch1.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Designed by Us
+  &lt;/div&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch2.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch2.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Charity sale
+  &lt;/div&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch3.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch3.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Yep, that's me
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/h2&gt;
+
+&lt;p&gt;可悲的是，我们没有设法改变学校旅行的目的地。许多人，包括我自己，最终都去了马戏团。这应该是我们活动的结束，但是，正如您可能已经知道的那样，放弃对我来说永远不是一个选择。我想提高更多人的意识。&lt;/p&gt;
+
+&lt;p&gt;在此期间，我还是2017年厦门中学生精英峰会的主要组织者之一。我非常擅长跨组织合作。因此，我想激励峰会的参与者帮助我们开展活动。&lt;/p&gt;
+
+&lt;p&gt;在峰会期间，我给每个团队50元人民币（7.4美元）作为他们的初始资金。每个团队有3天的时间来制定可执行计划，以倡导拒绝动物马戏团。他们会在第四天实施他们的计划。当然，参与是自愿的。&lt;/p&gt;
+
+&lt;p&gt;这就像一个小实验，因为我不知道他们可以在3天内实现什么，我甚至不知道有多少人会出现。但事实证明这是一次巨大的成功。活动当天，约120名学生作为组织者参加了我们的活动。我们同时在两个购物区（中山路，沙坡尾），一个购物中心（SM），一个公园（五一广场）和我们的学校举办慈善活动和义卖。&lt;/p&gt;
+
+&lt;p&gt;最后，我们教育了许多行人，并收到了500多个签名。我们在四小时内筹集了约3600元人民币。而整个活动的预算仅为550元人民币。&lt;/p&gt;
+
+&lt;table class=&quot;text-center&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/poster3.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/poster3.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts1.PNG&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts1.PNG&quot; class=&quot;w-75&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts2.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts2.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/sales.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/sales.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/cert.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/cert.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/signitures.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/signitures.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;/table&gt;</content><author><name></name></author><category term="Event_Planning" /><category term="Leadership" /><category term="All" /><summary type="html">我认为动物应该被道德的对待.</summary></entry><entry><title type="html">SSDCXI</title><link href="http://localhost:4000/projects/2015/fall/SSDCXI" rel="alternate" type="text/html" title="SSDCXI" /><published>2019-08-10T13:37:52-04:00</published><updated>2019-08-10T13:37:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/SSDCXI</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/SSDCXI">&lt;p&gt;如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。&lt;/p&gt;
+
+&lt;p&gt;在高一的时候，我在高中校园里建立了SSDCXI，即厦门一中太空城市设计社，我们参加了NASA主办的 “国际太空城市设计大赛”&lt;/p&gt;
+
+&lt;p&gt;建社之初，除了一腔热血之外我一无所有，但在我的经营引导和历届社员们的不懈努力下，我们社团三次在中国初赛中赢得了一等奖，摘得一枚中国赛区的金牌，在印度新德里的半决赛中两次获得亚军。除此之外，我们还获得了两枚爱德华·迪克杰出团队领导奖。&lt;/p&gt;
+
+&lt;p&gt;来看看我们的故事吧：
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;table class=&quot;text-center&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/1-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/1-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/2-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/2-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/3-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/3-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/4-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/4-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/5.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/5.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/6-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/6-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/7-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/7-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/8-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/8-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/fm/9-min.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/fm/9-min.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+
+    &lt;/table&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#章节一社团创立&quot; id=&quot;markdown-toc-章节一社团创立&quot;&gt;章节一：社团创立&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#章节二越挫越勇&quot; id=&quot;markdown-toc-章节二越挫越勇&quot;&gt;章节二：越挫越勇&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#章节三开创先例&quot; id=&quot;markdown-toc-章节三开创先例&quot;&gt;章节三：开创先例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#章节四成长&quot; id=&quot;markdown-toc-章节四成长&quot;&gt;章节四：成长&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#网页设计&quot; id=&quot;markdown-toc-网页设计&quot;&gt;网页设计&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#视频编辑&quot; id=&quot;markdown-toc-视频编辑&quot;&gt;视频编辑&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#拉取赞助&quot; id=&quot;markdown-toc-拉取赞助&quot;&gt;拉取赞助&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#活动策划&quot; id=&quot;markdown-toc-活动策划&quot;&gt;活动策划&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;章节一社团创立&quot;&gt;章节一：社团创立&lt;/h2&gt;
+
+&lt;p&gt;2016年春天，在选拔了12名社员之后，我建立了这个社团。我们志同道合，目标一致，那就是设计一座太空城市。然而万事开头难，没有人清楚到底该做些什么，情况颇为棘手。&lt;/p&gt;
+
+&lt;p&gt;竞赛要求我们团队设计一个环绕水星的太空城市。总的来说，我们需要完成一份40页的投标方案，其中包括了一系列的3D设计图，用以展示城市的外部结构（材料、尺寸等）、内部规划（交通、住宅等）、日常运营（食物、供水等）、自动化（应急预案、工业机器人等）。&lt;/p&gt;
+
+&lt;p&gt;作为社团创始人，我的职责是带领团队从零出发，实现从无到有
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/ssdcxi/team.jpg&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/ssdcxi/team.jpg&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Us | 第一届社员在厦门高崎机场&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;章节二越挫越勇&quot;&gt;章节二：越挫越勇&lt;/h2&gt;
+
+&lt;p&gt;作为初来乍到的高一学生， 我没有任何带领工业设计团队的经验，所以我选择了相信我的直觉。我邀请了厦门本地大学的教授为社团授课，以此锻炼成员3D建模的能力。为了让成员知悉设计理念和内容，我通读了多份太空城市设计方案，并且每周进行物理知识和设计的讲解。&lt;/p&gt;
+
+&lt;p&gt;两个月的准备后，我们收到了第一份RFP（设计要求书），要求我们设计一座朝向太阳的太空城，环绕于水星的极地轨道。为了更好地达到目标，我规划了每周迭代一次的设计推进方式，将团队分作多个不同的小组解决具体的任务。每迭代一次，我都能及时地向组员们做出反馈。最后，我们对同一个系统给出了多个版本的设计，并且越来越完善。&lt;/p&gt;
+
+&lt;div class=&quot;row text-center&quot;&gt;
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;a href=&quot;/images/projects/ssdcxi/overall1.JPG&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/overall1.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+        V1.0
+    &lt;/div&gt;
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;a href=&quot;/images/projects/ssdcxi/overall2.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/overall2.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+        V2.0
+    &lt;/div&gt;
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;a href=&quot;/images/projects/ssdcxi/overall3.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/overall3.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+        V3.0
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;有时，我要与队员们一起反复对设计方案进行修订。比如说为了让太空城市更适应水星表面的极端环境，我们将城市的外部构造修改了至少11次。我鼓励成员们进行一场场的头脑风暴，常常一个下午过去，黑板上已写得满满当当。&lt;/p&gt;
+
+&lt;p&gt;在辛勤工作了四个月之后，我们成功了：一份独立设计的纯英文太空城市方案书，长达70页。&lt;/p&gt;
+
+&lt;p&gt;值得一提的是，我们所在的学校是一所中国公立高中，早上7:15上课，直到晚间9:45才放学。所以，我非常感谢我的社员们，在应对沉重学业负担的同时和我一起完成了这几乎是不可能的任务。尽管压力很大，但和你们一起奋斗是我一生中最美好的经历之一。谢谢你们！&lt;/p&gt;
+
+&lt;table class=&quot;text-center&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/old.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/old.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/new.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/new.png&quot; class=&quot;w-75&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Outer Structure V1.0&lt;/td&gt;&lt;td&gt;Outer Structure V2.0&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;章节三开创先例&quot;&gt;章节三：开创先例&lt;/h2&gt;
+
+&lt;p&gt;八月，我们提交了方案书。那时我以为此行已经告终了。我的意思是，作为第一次参赛的毫无经验的队伍，完成了方案书本身就已是一个创举，获得奖项更是从未想过。&lt;/p&gt;
+
+&lt;p&gt;我不会想到，我认为的终点，不过是踏出了第一步，未来意义非凡的两年旅程的第一步。&lt;/p&gt;
+
+&lt;p&gt;没错，你可能已经猜到了，我们在淘汰赛中赢得了一等奖，成为了福建省第一支进入到全国赛的队伍。在中国的决赛中，我被选为总裁，领导一家48名学生组成的模拟航空航天技术公司“Vulture”，公司的目标同样是设计一座全新的太空城市。但这次我们只有24小时的时间，并且团队中有36位完全陌生的成员。我不断在各个部门进行协调，在24小时内带领团队设计了一座水星地下的太空城市。但遗憾的是，我们公司只获得了亚军，我们所代表的学校无法晋级亚洲赛区的半决赛。&lt;/p&gt;
+
+&lt;p&gt;然而，就此放弃从来不是我们的风格。在得知有复活赛机会后，我们毫不犹豫地参加了，在短短一个月的期限里，我们反复地进行设计，不断完善原有的设计方案。那可以说是我高中生涯最黑暗的时期，我的ACT考试（美国高考）、高中五个科目的期中考试日期与设计稿提交的最后期限相隔不到十天，但是，我们做到了，我们成功了，又一次。&lt;/p&gt;
+
+&lt;table class=&quot;text-center&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/robo2.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/robo2.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/HF.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/HF.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/structure.png&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/structure.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Automation&lt;/td&gt;&lt;td&gt;Human Factor&lt;/td&gt;&lt;td&gt;Structure&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;如你所料，我们也成为了本省第一支踏入印度新德里的世界半决赛的队伍， 在印度赛里，我成为了5家模拟公司中唯一的中国总裁。这一次，我要带领的是公司是由54名来自三个不同国家的学生组成的。&lt;/p&gt;
+
+&lt;table class=&quot;text-center&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/800 (1).jpeg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/800 (1).jpeg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/0412_1.jpg&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/0412_1.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;/images/projects/ssdcxi/IMG_0816.JPG&quot;&gt; &lt;img src=&quot;/images/projects/ssdcxi/IMG_0816.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;First Club Meeting&lt;/td&gt;&lt;td&gt;Medals&lt;/td&gt;&lt;td&gt;Yep,that's me&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;章节四成长&quot;&gt;章节四：成长&lt;/h2&gt;
+
+&lt;p&gt;胜败乃兵家常事，难的是从胜负之中汲取经验，并以此让我们的SSDCXI茁壮成长起来。在印度比赛之后，我又着手将社团规模由12人扩展到了40人，以下是我为社团发展所做的一系列措施：&lt;/p&gt;
+
+&lt;h3 id=&quot;网页设计&quot;&gt;网页设计&lt;/h3&gt;
+
+&lt;p&gt;我们是一个科技类社团，自然需要一个社团网站，如果酷炫一点就更好了。问题是社团里没有人接触过网页设计的相关知识，所以只能从头自学了。通过一个夏天的努力，我设计了人生中第一个网页：&lt;a href=&quot;http://ssdcxi.space&quot;&gt;ssdcxi.space&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;此网站旨在向潜在的未来成员介绍本社团，同时记录社团历史。现在由我的继任者负责维护。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+    &lt;a href=&quot;http://ssdcxi.space&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+      
+        &lt;img src=&quot; /images/projects/ssdcxi/site.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;ssdcxi.space&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h3 id=&quot;视频编辑&quot;&gt;视频编辑&lt;/h3&gt;
+
+&lt;p&gt;仅仅通过一张海报来展示我们做的事情是不可能的（虽然我们设计了很多张海报），所以我想为社团制作一个宣传视频，以此吸引新的成员。同样的困难再次出现，在这方面我们同样是毫无经验，自然而然地，我们只能走一步学一步。我的伙伴们帮我录制了脚本，之后我用两天完成剪辑。话说在前，这个视频的制作者只是初试牛刀，所以也许这不是你所见到的最精彩的宣传视频。以下是完整视频：&lt;/p&gt;
+
+&lt;iframe class=&quot;w-100&quot; src=&quot;http://player.bilibili.com/player.html?aid=53790012&amp;amp;cid=94089671&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; height=&quot;500px&quot; frameborder=&quot;no&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;拉取赞助&quot;&gt;拉取赞助&lt;/h3&gt;
+&lt;p&gt;在参赛过程中，我们要飞往北京和印度，因此需要赞助商来为我们提供经费。作为社长，我必须确保我们得到赞助。由于我们的高中并没有赞助此类校外赛事的先例，我们与学校的相关人员不断商议(特别感谢焕炎老师！！)，成功劝说他们补贴了部分经费。我又一次次穿过大半个厦门去与启德教育集团（EIC）协商，并达成了合作。最后，学校支付了我们的食宿开销，EIC赞助了我们的机票费，我们社团节省了大约三万元人民币。&lt;/p&gt;
+
+&lt;h3 id=&quot;活动策划&quot;&gt;活动策划&lt;/h3&gt;
+
+&lt;p&gt;在社团建立的第二年，我想让更多人体验加入工业设计团队的乐趣，所以在2018年的冬天，我们举办了厦门高中生太空城市研发者大会（XYSSDC），一个持续五天的冬令营，接纳60位来自全省各地的高中生，为他们进行太空城市设计的培训。这个活动值得我们用单独的页面来展示。点击此处了解：（敬请期待）&lt;/p&gt;</content><author><name></name></author><category term="Highlight" /><category term="All" /><category term="Event_Planning" /><category term="Leadership" /><category term="Marketing" /><category term="Negotiation" /><category term="Video_Editing" /><category term="Web_Design" /><summary type="html">如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。</summary></entry><entry><title type="html">15112</title><link href="http://localhost:4000/projects/2018/fall/15112" rel="alternate" type="text/html" title="15112" /><published>2019-08-10T13:37:52-04:00</published><updated>2019-08-10T13:37:52-04:00</updated><id>http://localhost:4000/projects/2018/fall/15112</id><content type="html" xml:base="http://localhost:4000/projects/2018/fall/15112">&lt;p&gt;这个项目献给 斯科特·陈
+感谢你在高中作为我的“sametable”&lt;/p&gt;
+
+&lt;p&gt;这是 CMU 15-112计算机基础和编程的学期项目 这是我开发的第一款电子游戏。它是在python中编程的，并且使用了pygame包。这是对flash游戏坦克大战的再现。我选择重现坦克大战是因为我以前经常和我高中的朋友玩这个游戏。&lt;/p&gt;
+
+&lt;p&gt;这一页是游戏的一个细目，所以未来的15112名学生可以参考，而不必通读我写的代码就可以知道我是怎么实现游戏的。&lt;/p&gt;
+
+&lt;p&gt;你可以在这里看到一个3分钟的游戏预告片：&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53536376&amp;amp;cid=93657975&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; class=&quot;w-100&quot; height=&quot;500px&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#总体架构&quot; id=&quot;markdown-toc-总体架构&quot;&gt;总体架构&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#多人模式&quot; id=&quot;markdown-toc-多人模式&quot;&gt;多人模式&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#游戏ai&quot; id=&quot;markdown-toc-游戏ai&quot;&gt;游戏AI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#彩蛋&quot; id=&quot;markdown-toc-彩蛋&quot;&gt;彩蛋&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#值得改进的地方&quot; id=&quot;markdown-toc-值得改进的地方&quot;&gt;值得改进的地方&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;总体架构&quot;&gt;总体架构&lt;/h2&gt;
+
+&lt;p&gt;这个游戏有7个不同的场景: StartScreen, SinglePlayerMode, TwoPlayerMode, ThreePlayerMode, InstructionsScreen, RankScreen, and EasterMode.&lt;/p&gt;
+
+&lt;p&gt;因为PyGame不支持如Unity中的场景切换，所以我编写了一些场景切换代码。核心思想是在不同模式下调用不同的redrawall或timerfired。这个方法在15112课上有所提及，所以我不会在这里进一步阐述。您可以在这里了解更多信息：&lt;a href=&quot;http://www.krivers.net/15112-s18/notes/notes-animations-demos.html&quot;&gt; Mode Demo &lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/15112/Mode_Demo.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/15112/Mode_Demo.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Mode Demo&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;多人模式&quot;&gt;多人模式&lt;/h2&gt;
+
+&lt;p&gt;本地双玩家多人模式是本游戏的MVP。棘手的部分是如何检查坦克和地图以及子弹和地图之间的碰撞。地图生成为PNG图像，墙为黑色像素，通道为透明背景（零α通道）。而坦克只是一个卡通坦克的图片。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/15112/Two_Player_Mode.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/15112/Two_Player_Mode.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Two Player Mode&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;我的许多在2019年春季的112节课上的朋友，试图在游戏中使用&lt;code class=&quot;highlighter-rouge&quot;&gt;
+pygame.sprite.collide(self,map)&lt;/code&gt;
+。这不能起作用，因为sprite.collide将地图视为sprite，也就是一个整体图像。因为地图在你的游戏对象下面（在我的例子中游戏对象是坦克），你的游戏对象总是会与地图发生碰撞&lt;/p&gt;
+
+&lt;p&gt;然而，有一个称为&lt;code class=&quot;highlighter-rouge&quot;&gt;pygame.sprite.collide_mask（self，map）&lt;/code&gt;的方法。这可以让游戏正常工作，因为此函数为地图创建一个“mask”。也就是说，它创建了一个新的“图像”，其像素仅为非零阿尔法通道。因此，在我的例子中，碰撞只考虑黑墙，而透明的通道不会被考虑。&lt;/p&gt;
+
+&lt;p&gt;在MVP中，您可能需要注意的另一件事是帧速率。在我的第一个原型中，每秒的子弹速度比每秒的帧速率快。由于速度快，它可以在下次碰撞检查之前移动以通过墙的宽度。因此，我想要的弹性墙效果无法实现。起初，我认为这是一个编程问题，所以我一直在尝试调整碰撞方法。所以请注意，帧速率可能会影响碰撞测试。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/15112/Three_Player_Mode.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/15112/Three_Player_Mode.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Three Player Mode&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;我在第一次迭代中完成了一个没有人工智能的坦克。在第二次迭代中完成两人模式后，我在第三次迭代中添加了三人模式。第三个玩家将使用鼠标导航并右击射击子弹。一旦你准备好了所有的基本代码，这就不难实现了&lt;/p&gt;
+
+&lt;h2 id=&quot;游戏ai&quot;&gt;游戏AI&lt;/h2&gt;
+
+&lt;p&gt;哦，这是游戏中最难的部分。我需要设计一个能导航、射击和躲避子弹的人工智能坦克。理论上，如果我将地图存储在一个二维列表中，我就可以使用回溯函数并定期更新人工智能的路径。算法不会很难编写。但问题是，我没有将地图存储在二维列表中。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/15112/AI_Mode.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/15112/AI_Mode.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;AI Mode&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;为了简化我的MVP，我最初使用了地图的一个PS的图像。在我的第二次迭代中，我想不出一种使用回溯生成地图的有效方法。这是因为我需要避免封闭任何尺寸的容器，这样坦克就不会被困在一个区域。&lt;/p&gt;
+
+&lt;p&gt;为了保持项目的运行，我选择了避免这个问题，所以没有用自动生成的地图。在我的第二次迭代中，我只是让人工智能坦克在每次撞到墙上时都简单地右转。这将使人工智能坦克似乎在四处移动。你可能已经猜到了，缺点是有时坦克会被困在范围里绕圈。&lt;/p&gt;
+
+&lt;p&gt;在第三次迭代中，我编写了一个“光线投射”函数。基本上，我会定期向8个方向发射8颗不同的子弹。这些子弹不会被画出来。通过计算时间，这种光线投射可以让坦克知道哪个方向有更多的空间，哪个方向是死胡同。然后坦克可以根据这些信息做出转弯的决定。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/15112/Ray_Casting.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/15112/Ray_Casting.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Ray Casting&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;经过长时间的微调，人工智能的游戏运行得比之前好了很多很多。我觉得你总是可以尝试想出创造性的方法来实现游戏人工智能。&lt;/p&gt;
+&lt;h2 id=&quot;彩蛋&quot;&gt;彩蛋&lt;/h2&gt;
+
+&lt;p&gt;在第四次迭代中，我添加了一些改变坦克大小和速度的powerup、一个在本地存储过去分数的排名界面，以及一个彩蛋模式。你可以通过在启动屏幕上乱转来触发复活节模式。随意玩玩，尝试打破游戏：）&lt;/p&gt;
+
+&lt;h2 id=&quot;值得改进的地方&quot;&gt;值得改进的地方&lt;/h2&gt;
+
+&lt;p&gt;如果我有更多的时间，我会尝试写出一个地图生成算法。这将使游戏有随机地图，同时游戏人工智能也可以更有趣。加入两个人工智能坦克相互战斗的模式也会很有趣。&lt;/p&gt;</content><author><name></name></author><category term="Game_Design" /><category term="All" /><summary type="html">这个项目献给 斯科特·陈 感谢你在高中作为我的“sametable”</summary></entry></feed>
