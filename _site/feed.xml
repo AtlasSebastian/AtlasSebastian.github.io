@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-17T11:19:38-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-17T16:22:34-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
 &lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
 
@@ -313,112 +313,7 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;h2 id=&quot;值得改进的地方&quot;&gt;值得改进的地方&lt;/h2&gt;
 
-&lt;p&gt;如果我有更多的时间，我会尝试写出一个地图生成算法。这将使游戏有随机地图，同时游戏人工智能也可以更有趣。加入两个人工智能坦克相互战斗的模式也会很有趣。&lt;/p&gt;</content><author><name></name></author><category term="Game_Design" /><category term="All" /><summary type="html">这个项目献给 斯科特·陈 感谢你在高中作为我的“sametable”</summary></entry><entry><title type="html">APA</title><link href="http://localhost:4000/projects/2015/fall/APA" rel="alternate" type="text/html" title="APA" /><published>2019-08-13T13:37:52-04:00</published><updated>2019-08-13T13:37:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/APA</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/APA">&lt;p&gt;我认为动物应该被道德的对待.&lt;/p&gt;
-
-&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦，所以我的工作重点是抵制动物杂技。 我于2016年当选为学校动物保护协会会长。然后，我带领一支由15名学生组成的团队发起了”Not Born to Perform”的活动，以阻止厦门的动物杂技。&lt;/p&gt;
-
-&lt;p&gt;在整个活动中，我组织了慈善义卖和课堂演讲。 我们与学校高层争论停止到当地动物马戏团的学校春秋游，最后我们同时在厦门的5个不同公共区域举办慈善表演，有超过120名学生志愿者参与，捐赠所有获得的善款给PETA香港。&lt;/p&gt;
-
-&lt;p&gt;这是我们的故事：
-&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    
-      &lt;a href=&quot; /images/projects/APA/sign.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
-    
-        &lt;img src=&quot; /images/projects/APA/sign.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
-
-    &lt;/a&gt;
-
-    
-        &lt;p class=&quot;text-center&quot;&gt; &quot;I promise I will never visit animal circuses.&quot; &lt;/p&gt;
-    
-
-&lt;/div&gt;
-&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
-
-&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#第一阶段在课堂上&quot; id=&quot;markdown-toc-第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#第二阶段在校园里&quot; id=&quot;markdown-toc-第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#第三阶段在社会中&quot; id=&quot;markdown-toc-第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/h2&gt;
-
-&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦。 因此，我从不喜欢动物杂技的想法。 所以当我了解当地政府决定投资约1亿人民币（1500万美元）建造世界上最大的动物马戏团“厦门灵玲国际马戏”时，我感到非常不舒服。&lt;/p&gt;
-
-&lt;p&gt;该决定已由政府做出。 由于示威游行和上诉不是很“中国特色”，我专注于劝阻公众参观该马戏团。 而我最容易接触到一群人，就是我的同学。&lt;/p&gt;
-
-&lt;p&gt;所以，我写了一篇演讲，并在APA教我的队友如何演讲呈献。 然后我们与学校领导交谈，并在每个教室展示我们的演讲。 最后，我们收到了100多名学生的签名，他们发誓永远不会访问动物马戏团。
-&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    
-      &lt;a href=&quot; /images/projects/APA/sign2.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
-    
-        &lt;img src=&quot; /images/projects/APA/sign2.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
-
-    &lt;/a&gt;
-
-    
-        &lt;p class=&quot;text-center&quot;&gt;Signatures from students&lt;/p&gt;
-    
-
-&lt;/div&gt;
-&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/h2&gt;
-
-&lt;p&gt;在我们演讲后几个月，我们当地政府的教育部门决定将灵灵马戏团作为许多公立学校学校旅行的目的地。&lt;/p&gt;
-
-&lt;p&gt;说我们不开心将是轻描淡写。我们很生气。&lt;/p&gt;
-
-&lt;p&gt;我将我的团队分成两组。一组专注于联系学校和政府官员，试图改变目的地。但我们知道，由于当地政府是马戏团的投资者之一，这件事成功机会很小。另一组则专注于校园范围的慈善活动，以提高动物保护意识。&lt;/p&gt;
-
-&lt;p&gt;我们设计了许多商品，并在我们的校园慈善拍卖会上出售。然后我们再次回到教室，提出我们的想法并劝阻学生参与。但是由于我们在高中的3年时间里只有2次学校旅行，所以很难劝阻学生不参加。因此，我改变了演讲方式，把主题从“拒绝马戏团”改成“我最后一次去马戏团”。我们让学生思考如果他们是动物他们感觉如何，并希望他们把这次去动物马戏团作为他们的第一次也是最后一次。&lt;/p&gt;
-
-&lt;div class=&quot;row text-center&quot;&gt;
-  &lt;div class=&quot;col-4&quot;&gt;
-    &lt;a href=&quot;/images/projects/APA/merch1.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch1.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
-    Designed by Us
-  &lt;/div&gt;
-  &lt;div class=&quot;col-4&quot;&gt;
-    &lt;a href=&quot;/images/projects/APA/merch2.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch2.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
-    Charity sale
-  &lt;/div&gt;
-  &lt;div class=&quot;col-4&quot;&gt;
-    &lt;a href=&quot;/images/projects/APA/merch3.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch3.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
-    Yep, that's me
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/h2&gt;
-
-&lt;p&gt;可悲的是，我们没有设法改变学校旅行的目的地。许多人，包括我自己，最终都去了马戏团。这应该是我们活动的结束，但是，正如您可能已经知道的那样，放弃对我来说永远不是一个选择。我想提高更多人的意识。&lt;/p&gt;
-
-&lt;p&gt;在此期间，我还是2017年厦门中学生精英峰会的主要组织者之一。我非常擅长跨组织合作。因此，我想激励峰会的参与者帮助我们开展活动。&lt;/p&gt;
-
-&lt;p&gt;在峰会期间，我给每个团队50元人民币（7.4美元）作为他们的初始资金。每个团队有3天的时间来制定可执行计划，以倡导拒绝动物马戏团。他们会在第四天实施他们的计划。当然，参与是自愿的。&lt;/p&gt;
-
-&lt;p&gt;这就像一个小实验，因为我不知道他们可以在3天内实现什么，我甚至不知道有多少人会出现。但事实证明这是一次巨大的成功。活动当天，约120名学生作为组织者参加了我们的活动。我们同时在两个购物区（中山路，沙坡尾），一个购物中心（SM），一个公园（五一广场）和我们的学校举办慈善活动和义卖。&lt;/p&gt;
-
-&lt;p&gt;最后，我们教育了许多行人，并收到了500多个签名。我们在四小时内筹集了约3600元人民币。而整个活动的预算仅为550元人民币。&lt;/p&gt;
-
-&lt;table class=&quot;text-center&quot;&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/poster3.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/poster3.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts1.PNG&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts1.PNG&quot; class=&quot;w-75&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts2.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts2.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/sales.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/sales.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/cert.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/cert.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/signitures.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/signitures.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;/table&gt;</content><author><name></name></author><category term="Event_Planning" /><category term="Leadership" /><category term="All" /><summary type="html">我认为动物应该被道德的对待.</summary></entry><entry><title type="html">Transease</title><link href="http://localhost:4000/projects/2018/spring/Transease" rel="alternate" type="text/html" title="Transease" /><published>2019-08-10T14:37:52-04:00</published><updated>2019-08-10T14:37:52-04:00</updated><id>http://localhost:4000/projects/2018/spring/Transease</id><content type="html" xml:base="http://localhost:4000/projects/2018/spring/Transease">&lt;p&gt;在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。&lt;/p&gt;
+&lt;p&gt;如果我有更多的时间，我会尝试写出一个地图生成算法。这将使游戏有随机地图，同时游戏人工智能也可以更有趣。加入两个人工智能坦克相互战斗的模式也会很有趣。&lt;/p&gt;</content><author><name></name></author><category term="Game_Design" /><category term="All" /><summary type="html">这个项目献给 斯科特·陈 感谢你在高中作为我的“sametable”</summary></entry><entry><title type="html">Transease</title><link href="http://localhost:4000/projects/2018/spring/Transease" rel="alternate" type="text/html" title="Transease" /><published>2019-08-10T14:37:52-04:00</published><updated>2019-08-10T14:37:52-04:00</updated><id>http://localhost:4000/projects/2018/spring/Transease</id><content type="html" xml:base="http://localhost:4000/projects/2018/spring/Transease">&lt;p&gt;在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。&lt;/p&gt;
 
 &lt;p&gt;这让我开始思考。如果每次人们需要翻译的时候，总有一个人可以奇迹般地出现并帮助他们，这不是很好吗?&lt;/p&gt;
 
@@ -578,7 +473,112 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;p&gt;实际的应用程序开发都是由我的朋友Tony Lian和Yujie Wang完成的。Tony 负责设计后台，Yujie负责设计前端。&lt;/p&gt;
 
-&lt;p&gt;除了提出这个想法之外，我在这个项目中的角色是跨迭代提供反馈，并确保我们的项目范围正常工作。我还负责用户测试、市场调研、调查和市场推广。&lt;/p&gt;</content><author><name></name></author><category term="Highlight" /><category term="All" /><category term="Event_Planning" /><category term="Leadership" /><category term="Marketing" /><category term="Negotiation" /><category term="Video_Editing" /><category term="Web_Design" /><summary type="html">在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。</summary></entry><entry><title type="html">SSDCXI</title><link href="http://localhost:4000/projects/2015/fall/SSDCXI" rel="alternate" type="text/html" title="SSDCXI" /><published>2019-08-10T13:37:52-04:00</published><updated>2019-08-10T13:37:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/SSDCXI</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/SSDCXI">&lt;p&gt;如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。&lt;/p&gt;
+&lt;p&gt;除了提出这个想法之外，我在这个项目中的角色是跨迭代提供反馈，并确保我们的项目范围正常工作。我还负责用户测试、市场调研、调查和市场推广。&lt;/p&gt;</content><author><name></name></author><category term="All" /><category term="Entrepreneurship" /><summary type="html">在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。</summary></entry><entry><title type="html">APA</title><link href="http://localhost:4000/projects/2015/fall/APA" rel="alternate" type="text/html" title="APA" /><published>2019-08-10T13:57:52-04:00</published><updated>2019-08-10T13:57:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/APA</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/APA">&lt;p&gt;我认为动物应该被道德的对待.&lt;/p&gt;
+
+&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦，所以我的工作重点是抵制动物杂技。 我于2016年当选为学校动物保护协会会长。然后，我带领一支由15名学生组成的团队发起了”Not Born to Perform”的活动，以阻止厦门的动物杂技。&lt;/p&gt;
+
+&lt;p&gt;在整个活动中，我组织了慈善义卖和课堂演讲。 我们与学校高层争论停止到当地动物马戏团的学校春秋游，最后我们同时在厦门的5个不同公共区域举办慈善表演，有超过120名学生志愿者参与，捐赠所有获得的善款给PETA香港。&lt;/p&gt;
+
+&lt;p&gt;这是我们的故事：
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/APA/sign.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/APA/sign.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt; &quot;I promise I will never visit animal circuses.&quot; &lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#第一阶段在课堂上&quot; id=&quot;markdown-toc-第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第二阶段在校园里&quot; id=&quot;markdown-toc-第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第三阶段在社会中&quot; id=&quot;markdown-toc-第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第一阶段在课堂上&quot;&gt;第一阶段：在课堂上&lt;/h2&gt;
+
+&lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦。 因此，我从不喜欢动物杂技的想法。 所以当我了解当地政府决定投资约1亿人民币（1500万美元）建造世界上最大的动物马戏团“厦门灵玲国际马戏”时，我感到非常不舒服。&lt;/p&gt;
+
+&lt;p&gt;该决定已由政府做出。 由于示威游行和上诉不是很“中国特色”，我专注于劝阻公众参观该马戏团。 而我最容易接触到一群人，就是我的同学。&lt;/p&gt;
+
+&lt;p&gt;所以，我写了一篇演讲，并在APA教我的队友如何演讲呈献。 然后我们与学校领导交谈，并在每个教室展示我们的演讲。 最后，我们收到了100多名学生的签名，他们发誓永远不会访问动物马戏团。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/APA/sign2.JPG&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/APA/sign2.JPG&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Signatures from students&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;第二阶段在校园里&quot;&gt;第二阶段：在校园里&lt;/h2&gt;
+
+&lt;p&gt;在我们演讲后几个月，我们当地政府的教育部门决定将灵灵马戏团作为许多公立学校学校旅行的目的地。&lt;/p&gt;
+
+&lt;p&gt;说我们不开心将是轻描淡写。我们很生气。&lt;/p&gt;
+
+&lt;p&gt;我将我的团队分成两组。一组专注于联系学校和政府官员，试图改变目的地。但我们知道，由于当地政府是马戏团的投资者之一，这件事成功机会很小。另一组则专注于校园范围的慈善活动，以提高动物保护意识。&lt;/p&gt;
+
+&lt;p&gt;我们设计了许多商品，并在我们的校园慈善拍卖会上出售。然后我们再次回到教室，提出我们的想法并劝阻学生参与。但是由于我们在高中的3年时间里只有2次学校旅行，所以很难劝阻学生不参加。因此，我改变了演讲方式，把主题从“拒绝马戏团”改成“我最后一次去马戏团”。我们让学生思考如果他们是动物他们感觉如何，并希望他们把这次去动物马戏团作为他们的第一次也是最后一次。&lt;/p&gt;
+
+&lt;div class=&quot;row text-center&quot;&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch1.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch1.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Designed by Us
+  &lt;/div&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch2.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch2.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Charity sale
+  &lt;/div&gt;
+  &lt;div class=&quot;col-4&quot;&gt;
+    &lt;a href=&quot;/images/projects/APA/merch3.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/merch3.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;
+    Yep, that's me
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;第三阶段在社会中&quot;&gt;第三阶段：在社会中&lt;/h2&gt;
+
+&lt;p&gt;可悲的是，我们没有设法改变学校旅行的目的地。许多人，包括我自己，最终都去了马戏团。这应该是我们活动的结束，但是，正如您可能已经知道的那样，放弃对我来说永远不是一个选择。我想提高更多人的意识。&lt;/p&gt;
+
+&lt;p&gt;在此期间，我还是2017年厦门中学生精英峰会的主要组织者之一。我非常擅长跨组织合作。因此，我想激励峰会的参与者帮助我们开展活动。&lt;/p&gt;
+
+&lt;p&gt;在峰会期间，我给每个团队50元人民币（7.4美元）作为他们的初始资金。每个团队有3天的时间来制定可执行计划，以倡导拒绝动物马戏团。他们会在第四天实施他们的计划。当然，参与是自愿的。&lt;/p&gt;
+
+&lt;p&gt;这就像一个小实验，因为我不知道他们可以在3天内实现什么，我甚至不知道有多少人会出现。但事实证明这是一次巨大的成功。活动当天，约120名学生作为组织者参加了我们的活动。我们同时在两个购物区（中山路，沙坡尾），一个购物中心（SM），一个公园（五一广场）和我们的学校举办慈善活动和义卖。&lt;/p&gt;
+
+&lt;p&gt;最后，我们教育了许多行人，并收到了500多个签名。我们在四小时内筹集了约3600元人民币。而整个活动的预算仅为550元人民币。&lt;/p&gt;
+
+&lt;table class=&quot;text-center&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/poster3.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/poster3.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts1.PNG&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts1.PNG&quot; class=&quot;w-75&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/posts2.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/posts2.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;/images/projects/APA/sales.JPG&quot;&gt; &lt;img src=&quot;/images/projects/APA/sales.JPG&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/cert.jpg&quot;&gt; &lt;img src=&quot;/images/projects/APA/cert.jpg&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&quot;/images/projects/APA/signitures.png&quot;&gt; &lt;img src=&quot;/images/projects/APA/signitures.png&quot; class=&quot;w-100&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;/table&gt;</content><author><name></name></author><category term="Event_Planning" /><category term="Leadership" /><category term="All" /><summary type="html">我认为动物应该被道德的对待.</summary></entry><entry><title type="html">SSDCXI</title><link href="http://localhost:4000/projects/2015/fall/SSDCXI" rel="alternate" type="text/html" title="SSDCXI" /><published>2019-08-10T13:37:52-04:00</published><updated>2019-08-10T13:37:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/SSDCXI</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/SSDCXI">&lt;p&gt;如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。&lt;/p&gt;
 
 &lt;p&gt;在高一的时候，我在高中校园里建立了SSDCXI，即厦门一中太空城市设计社，我们参加了NASA主办的 “国际太空城市设计大赛”&lt;/p&gt;
 
