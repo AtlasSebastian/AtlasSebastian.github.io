@@ -1,4 +1,7 @@
-
+p{
+	letter-spacing: 0.9px;
+	color: rgb(63,66,70);
+}
 .bg-darklight{
 	background-color: rgba(10, 11, 11, 0.64);
 }
