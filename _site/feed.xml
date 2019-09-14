@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-02T10:29:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-14T10:33:59-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
 &lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
 
@@ -473,7 +473,7 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;p&gt;实际的应用程序开发都是由我的朋友Tony Lian和Yujie Wang完成的。Tony 负责设计后台，Yujie负责设计前端。&lt;/p&gt;
 
-&lt;p&gt;除了提出这个想法之外，我在这个项目中的角色是跨迭代提供反馈，并确保我们的项目范围正常工作。我还负责用户测试、市场调研、调查和市场推广。&lt;/p&gt;</content><author><name></name></author><category term="All" /><category term="Entrepreneurship" /><category term="Product_Project_Management" /><summary type="html">在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。</summary></entry><entry><title type="html">APA</title><link href="http://localhost:4000/projects/2015/fall/APA" rel="alternate" type="text/html" title="APA" /><published>2019-08-10T13:57:52-04:00</published><updated>2019-08-10T13:57:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/APA</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/APA">&lt;p&gt;我认为动物应该被道德的对待.&lt;/p&gt;
+&lt;p&gt;除了提出这个想法之外，我在这个项目中的角色是跨迭代提供反馈，并确保我们的项目范围正常工作。我还负责用户测试、市场调研、调查和市场推广。&lt;/p&gt;</content><author><name></name></author><category term="All" /><category term="Entrepreneurship" /><category term="Product_Project_Management" /><category term="Marketing" /><summary type="html">在我高三，我们有一位来自英国新老师叫马克。但问题是他完全不会说中文。所以，当他需要租房子或和当地人聊天时，他需要我们帮忙翻译。</summary></entry><entry><title type="html">APA</title><link href="http://localhost:4000/projects/2015/fall/APA" rel="alternate" type="text/html" title="APA" /><published>2019-08-10T13:57:52-04:00</published><updated>2019-08-10T13:57:52-04:00</updated><id>http://localhost:4000/projects/2015/fall/APA</id><content type="html" xml:base="http://localhost:4000/projects/2015/fall/APA">&lt;p&gt;我认为动物应该被道德的对待.&lt;/p&gt;
 
 &lt;p&gt;我坚信人们的快乐不应该基于动物的痛苦，所以我的工作重点是抵制动物杂技。 我于2016年当选为学校动物保护协会会长。然后，我带领一支由15名学生组成的团队发起了”Not Born to Perform”的活动，以阻止厦门的动物杂技。&lt;/p&gt;
 
@@ -750,4 +750,301 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;h3 id=&quot;活动策划&quot;&gt;活动策划&lt;/h3&gt;
 
-&lt;p&gt;在社团建立的第二年，我想让更多人体验加入工业设计团队的乐趣，所以在2018年的冬天，我们举办了厦门高中生太空城市研发者大会（XYSSDC），一个持续五天的冬令营，接纳60位来自全省各地的高中生，为他们进行太空城市设计的培训。这个活动值得我们用单独的页面来展示。点击此处了解：（敬请期待）&lt;/p&gt;</content><author><name></name></author><category term="Highlights" /><category term="All" /><category term="Event_Planning" /><category term="Product_Project_Management" /><category term="Marketing" /><category term="Negotiation" /><category term="Web_Design" /><summary type="html">如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。</summary></entry></feed>
+&lt;p&gt;在社团建立的第二年，我想让更多人体验加入工业设计团队的乐趣，所以在2018年的冬天，我们举办了厦门高中生太空城市研发者大会（XYSSDC），一个持续五天的冬令营，接纳60位来自全省各地的高中生，为他们进行太空城市设计的培训。这个活动值得我们用单独的页面来展示。点击此处了解：（敬请期待）&lt;/p&gt;
+
+&lt;p&gt;译者：蔡景昊&lt;/p&gt;</content><author><name></name></author><category term="Highlights" /><category term="All" /><category term="Event_Planning" /><category term="Product_Project_Management" /><category term="Marketing" /><category term="Negotiation" /><category term="Web_Design" /><summary type="html">如果只能选择一件事，来代表我三年的高中生活，那么此事再合适不过。</summary></entry><entry><title type="html">AYES</title><link href="http://localhost:4000/projects/2016/spring/AYES" rel="alternate" type="text/html" title="AYES" /><published>2019-08-09T13:57:52-04:00</published><updated>2019-08-09T13:57:52-04:00</updated><id>http://localhost:4000/projects/2016/spring/AYES</id><content type="html" xml:base="http://localhost:4000/projects/2016/spring/AYES">&lt;p&gt;2015年秋季，在我来到高中一个月后，我加入了厦门一中学生会的实践部。我们每年最大的活动是为期五天的非盈利夏令营：厦门中学生精英峰会。&lt;/p&gt;
+
+&lt;p&gt;峰会旨在将福建省各地有能力的高中生聚集在一起。由于名额有限，申请人需要通过一轮笔试和两轮面试才能被录取。我们通常在2017年和2018年每年收到500-700名申请者，最后录取108名学生参与峰会。&lt;/p&gt;
+
+&lt;p&gt;我和我的团队在这次峰会上的工作是组织整个5天活动的方方面面，从计划到执行，从营销到融资，从寻找演讲者到媒体报道。我们一起度过了无数个难忘的午休，最后为所有的参会者呈现一个好玩和有教育意义的峰会。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是，本文所使用的照片都是我们部门勤奋的学生摄影师拍摄的。谢谢！。&lt;/p&gt;
+
+&lt;p&gt;这是我们的故事:&lt;/p&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#什么是ayes&quot; id=&quot;markdown-toc-什么是ayes&quot;&gt;什么是AYES？&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#对于参会者&quot; id=&quot;markdown-toc-对于参会者&quot;&gt;对于参会者&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#对于组委会&quot; id=&quot;markdown-toc-对于组委会&quot;&gt;对于组委会&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ayes-2016--品牌设计&quot; id=&quot;markdown-toc-ayes-2016--品牌设计&quot;&gt;AYES 2016 – “品牌设计”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ayes-2017--广告传媒&quot; id=&quot;markdown-toc-ayes-2017--广告传媒&quot;&gt;AYES 2017 – “广告传媒”&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#overlapinc&quot; id=&quot;markdown-toc-overlapinc&quot;&gt;Overlap.Inc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#一个虚假的软件&quot; id=&quot;markdown-toc-一个虚假的软件&quot;&gt;一个虚假的软件&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#精英峰会-x-动物保护协会&quot; id=&quot;markdown-toc-精英峰会-x-动物保护协会&quot;&gt;精英峰会 X 动物保护协会&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ayes-2019--人工智能&quot; id=&quot;markdown-toc-ayes-2019--人工智能&quot;&gt;AYES 2019 – “人工智能”&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#用ai解决痛点&quot; id=&quot;markdown-toc-用ai解决痛点&quot;&gt;用AI解决痛点&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#总结&quot; id=&quot;markdown-toc-总结&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;什么是ayes&quot;&gt;什么是AYES？&lt;/h2&gt;
+
+&lt;p&gt;AYES代表厦门中学生精英峰会。它是由厦门市一中学生会实践部全体成员独立策划、组织、实施的一次为期5天的夏令营活动。&lt;/p&gt;
+
+&lt;h3 id=&quot;对于参会者&quot;&gt;对于参会者&lt;/h3&gt;
+&lt;p&gt;参会者首先需要经过严格的筛选程序，这样他们才能在每年500-700名申请者中脱颖而出。被录取后，他们会发现这个为期五天的峰会将由两部分组成。第一部分是“精英活动”，也就是各种团队建设活动。这大约需要一天半的时间。参与者将作为一个团队，通过各种角色扮演、团队建设和虚拟现实游戏进行游戏。这包括解决谜题，把故事串联起来，以及发现细微的线索。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;!--Carousel Wrapper--&gt;
+&lt;div id=&quot;carousel-example-2&quot; class=&quot;carousel slide carousel-fade&quot; data-interval=&quot;3000&quot; data-ride=&quot;carousel&quot;&gt;
+
+&lt;!--Slides--&gt;
+
+&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+  
+ &lt;div class=&quot;carousel-item   active &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2016-WangShiPark.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-TeamActivity.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2016-Beach2.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-ARG.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2016-tour.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+&lt;!--/.Slides--&gt;
+
+
+&lt;/div&gt;
+&lt;!--/.Carousel Wrapper--&gt;
+
+
+    &lt;p class=&quot;text-center&quot;&gt;参会者在玩团队游戏&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;第二部分是我们称为”主题活动”，它占据了峰会的其余部分。每年的峰会都会选择一个不同的主题。与会者将参加该领域的专业人士、企业家和教授的讲座。该团队将共同努力，提出一个解决方案，以解决与该领域相关的特定问题。在最后一天，他们将向评审小组陈述他们的想法。在过去，我们有参与者因为他们的表现获得了评委的实习机会。&lt;/p&gt;
+
+&lt;p&gt;除了这两个主要部分之外，参与者还可以参加贯穿整个活动的许多小活动。例如，他们可以在我们提供的舞蹈课上学习如何跳舞。他们还可以参加我们联系的名企参观、志愿者活动和闭幕式上的社交舞会。&lt;/p&gt;
+
+&lt;p&gt;所有这些活动都在五天完成&lt;/p&gt;
+
+&lt;h3 id=&quot;对于组委会&quot;&gt;对于组委会&lt;/h3&gt;
+&lt;p&gt;作为组委会，我们的职责是确保上述所有事情发送。我们通常从2月份开始计划这次峰会。我们的团队由20多名学生组成。我们会每周开会，完成不同的任务，确保活动期间一切顺利。这包括与企业赞助商谈判，设计并测试精英活动的团队游戏，寻找主讲人，准备营销材料，最重要的是为每年的主题做准备。&lt;/p&gt;
+
+&lt;p&gt;我负责设计主题活动。我带领一个团队为每一年制定主题。我们负责执行主题，寻找演讲者，联系公司进行参观，组织志愿者活动。我偶尔也帮助其他部门负责赞助谈判、场地选择和设计方面。&lt;/p&gt;
+
+&lt;h2 id=&quot;ayes-2016--品牌设计&quot;&gt;AYES 2016 – “品牌设计”&lt;/h2&gt;
+&lt;p&gt;今年的主题是打造你的品牌，即培养参会者的创业心态和知识。比如说品牌打造、产品设计、用户调研等。为了实现这个想法，我的团队为参会者编写了一份招标书。为了介绍商业计划的概念，我还带领我的团队设计了三家公司的策划书，让参与者可以在范围和结构上进行类比。&lt;/p&gt;
+
+&lt;p&gt;在峰会期间，我荣幸的被邀请为峰会致开幕演讲。为期五天的峰会进行得很顺利。在峰会的最后一天，12个团队都展示了他们的创业公司以及他们的产品品牌和广告计划。这是一个巨大的成功。&lt;/p&gt;
+
+&lt;p&gt;峰会结束后，按惯例当晚会竞选下一届部门领导层。由于我成立了&lt;a href=&quot;/projects/2015/fall/SSDCXI&quot;&gt;我的社团&lt;/a&gt;，同时我也是学校&lt;a href=&quot;/projects/2015/fall/APA&quot;&gt;动物保护协会&lt;/a&gt;的会长，所以我谢绝了竞选领导职位。在我意料之外的是，上一届部长任命我为“部门顾问”，并在领导委员会中专门我增加了第四个职位，我真的感到很荣幸。&lt;/p&gt;
+
+&lt;p&gt;由于这是我在部门里的第一年，我没有尝试大胆的想法。&lt;/p&gt;
+
+&lt;p&gt;但这种情况很快就会改变。&lt;/p&gt;
+
+&lt;h2 id=&quot;ayes-2017--广告传媒&quot;&gt;AYES 2017 – “广告传媒”&lt;/h2&gt;
+&lt;p&gt;这是我第二年组织峰会。作为一个看电视长大的孩子，我想教参会者公司是如何营销他们的产品的。更具体地说，他们如何拍摄广告?&lt;/p&gt;
+
+&lt;p&gt;为了让峰会更有身临其境的感觉，我带领我的团队提出了一个虚假的公司Overlap.Inc，及其产品线。因此，在这次峰会上，我们组委会将成为一家招标的公司。参与者将组成团队，向我们展示他们的商业和营销理念。最后，评委将是我们公司的代表，获胜的团队将赢得公司的合同。&lt;/p&gt;
+&lt;h3 id=&quot;overlapinc&quot;&gt;Overlap.Inc&lt;/h3&gt;
+&lt;p&gt;为了让这家公司变得现实，我们设计了一份9页的文件，详细描述了这家公司的历史和产品线。我们让参与者为我们最新的产品Overcup II拍摄广告，这是一个智能的物联网杯。它是透明的，可以跟踪你的饮水习惯。如果你感兴趣，你可以在&lt;a href=&quot;/images/projects/AYES/2017RFP.pdf&quot;&gt;这里&lt;/a&gt;阅读整个RFP&lt;/p&gt;
+
+&lt;p&gt;我们为每个团队的项目提供了一个硅胶制成的杯子。但由于杯子应该是物联网设备，我们需要设计一个应用程序来营造气氛。问题是没有人知道如何开发应用程序。但很自然的，我们自学了如何开发应用程序。&lt;/p&gt;
+&lt;h3 id=&quot;一个虚假的软件&quot;&gt;一个虚假的软件&lt;/h3&gt;
+&lt;p&gt;这是一个假的移动应用程序，因为它不能真正连接到我们给参与者的杯子上。但它拥有所有的主要功能:菜单、登录屏幕和饮水数据可视化，因此它足以创造气氛和供参会者们拍摄广告。&lt;/p&gt;
+
+&lt;p&gt;因为我们想要兼容所有设备，所以我们设计了一个web应用程序，而不是IOS或Android应用程序。所以你可以通过扫描&lt;a href=&quot;/images/projects/AYES/2017RFP.pdf&quot;&gt;RFP&lt;/a&gt;底部的二维码来查看.
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/AYES//app.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/AYES//app.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The fake web app we designed&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h3 id=&quot;精英峰会-x-动物保护协会&quot;&gt;精英峰会 X 动物保护协会&lt;/h3&gt;
+&lt;p&gt;我一直觉得AYES不应该只是一个让学生们享受乐趣和学习的峰会。我觉得，当我们聚集了来自福建省的108名优秀学生，我们可以取得一些更有意义的成就，并产生社会影响。带着这个信念，我尝试了这个项目。&lt;/p&gt;
+
+&lt;p&gt;当时我也是学校&lt;a href=&quot;/projects/2015/fall/APA&quot;&gt;动物保护协会&lt;/a&gt;的会长。我非常喜欢将两个组织连接在一起来实现一些伟大的目标。在这次志愿者活动中，我们给每个想要参与的团队50元作为初始资金。他们需要在三天内拿出一个可执行的计划。在峰会的第四天，他们将启程为动物保护事业筹集资金。&lt;/p&gt;
+
+&lt;p&gt;活动开始前，我真的不知道会有多少人来参加，但是这次活动非常成功。120多名学生志愿参加，我们同时在厦门5个不同的公共场所举办慈善活动。&lt;/p&gt;
+
+&lt;p&gt;如果你想了解更多关于这个实验和&lt;a href=&quot;/projects/2015/fall/APA&quot;&gt;动物保护协会&lt;/a&gt;的信息，请点击蓝色的东西。&lt;/p&gt;
+
+&lt;div&gt;
+&lt;!--Carousel Wrapper--&gt;
+&lt;div id=&quot;carousel-example-2&quot; class=&quot;carousel slide carousel-fade&quot; data-interval=&quot;3000&quot; data-ride=&quot;carousel&quot;&gt;
+
+&lt;!--Slides--&gt;
+
+&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+  
+ &lt;div class=&quot;carousel-item   active &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-APA3.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-APA2.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-APA1.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-APA4.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2017-APA5.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+&lt;!--/.Slides--&gt;
+
+
+&lt;/div&gt;
+&lt;!--/.Carousel Wrapper--&gt;
+
+
+    &lt;p class=&quot;text-center&quot;&gt;志愿者活动&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ayes-2019--人工智能&quot;&gt;AYES 2019 – “人工智能”&lt;/h2&gt;
+&lt;p&gt;尽管我在2017年正式从部门“退休”，但令我惊讶的是，两年后，现在的学生会成员仍然向我征求2019年AYES的建议。所以如果你参加了2019年AYES，你可能会在活动中看到我的影子。&lt;/p&gt;
+
+&lt;p&gt;我于2019年6月在CMU完成了大一的学习。我回到中国大约一个星期后，现在的组织者给我打电话，请求我加入他们的队伍。&lt;/p&gt;
+
+&lt;h3 id=&quot;用ai解决痛点&quot;&gt;用AI解决痛点&lt;/h3&gt;
+&lt;p&gt;今年的主题是人工智能。这是一个很难的话题。一方面，由于许多参会者不知道如何编写代码，我们不能使该活动过于技术化。另一方面，这次活动不能太以商业为导向，否则专门为了主题而来参加峰会的技术学生将会感到失望。&lt;/p&gt;
+
+&lt;p&gt;这真的很困难，因为我基本要求他们重新设计整个主题活动，而在7月峰会之前，我们只有不到一个月的时间来实现这一点。&lt;/p&gt;
+
+&lt;p&gt;但最终，我们呈现了一个非常平衡的方法，既满足了技术专业的学生，也满足了非技术专业的学生。想知道是什么吗?&lt;/p&gt;
+
+&lt;p&gt;加入2019年峰会，亲身体验吧!&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+&lt;p&gt;我在AYES和实践部门度过了我的很多的高中时光。&lt;/p&gt;
+
+&lt;p&gt;我在那里遇到的人和我们共同取得的成就将永远是我最美好的记忆之一。&lt;/p&gt;
+
+&lt;p&gt;能成为这个团队的一员是我的荣幸。谢谢你们！&lt;/p&gt;
+&lt;div&gt;
+&lt;!--Carousel Wrapper--&gt;
+&lt;div id=&quot;carousel-example-2&quot; class=&quot;carousel slide carousel-fade&quot; data-interval=&quot;3000&quot; data-ride=&quot;carousel&quot;&gt;
+
+&lt;!--Slides--&gt;
+
+&lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+  
+ &lt;div class=&quot;carousel-item   active &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2016-organizers.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//shot.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//2016-Balldance.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//interview.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//DSC_0010-min.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//ballroom.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+ &lt;div class=&quot;carousel-item  &quot;&gt;
+    &lt;div class=&quot;view&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/images/projects/AYES//cover0.JPG&quot; alt=&quot; Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this &quot; /&gt;
+      &lt;div class=&quot;mask rgba-black-light&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+&lt;!--/.Slides--&gt;
+
+
+&lt;/div&gt;
+&lt;!--/.Carousel Wrapper--&gt;
+
+
+&lt;br /&gt;
+
+&lt;/div&gt;</content><author><name></name></author><category term="Event_Planning" /><category term="All" /><category term="Product_Project_Management" /><category term="Negotiation" /><category term="Non_Profits" /><summary type="html">2015年秋季，在我来到高中一个月后，我加入了厦门一中学生会的实践部。我们每年最大的活动是为期五天的非盈利夏令营：厦门中学生精英峰会。</summary></entry></feed>
