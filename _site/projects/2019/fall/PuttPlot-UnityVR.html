@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en" class="full-height">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	   <meta name="keywords" content="Sebastian Yang, CMU, Yukai, 杨毓恺">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+	<link href="/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/my.css">
+
+  
+  <title>PuttPlot | Sebastian Yang</title>
+  
+
+  </head>
+
+	<body>
+
+    
+<!--nav bar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-darklight fixed-top scrolling-navbar">
+<div class="container">
+
+<a class="navbar-brand" href="/index"><img src="/images/static/seb.png" width="80" height="30"  class="d-inline-block align-top" alt="">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item ">
+              <a class="nav-link" href="/index">Home</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link" href="/about">About me</a>
+          </li>
+          <li class="nav-item dropdown  active ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/dumbSeb">Borning Stuff</a>
+                  <a class="dropdown-item" href="/smartSeb">Interesting Stuff</a>
+              </div>
+          </li>
+
+          <li class="nav-item  ">
+              <a class="nav-link" href="/contact ">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://yukaiyang.com/projects/2019/fall/PuttPlot-UnityVR">English</a>
+          </li>
+
+      </ul>
+</div>
+</div>
+</nav>
+
+    
+    <div>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<!--Indicators-->
+
+<!--/.Indicators-->
+<!--Slides-->
+
+<div class="carousel-inner" role="listbox">
+  
+ <div class="carousel-item   active ">
+    <div class="view">
+      <img class="d-block w-100"  src="/images/projects/PuttPlot//cover.png" alt=" Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this ">
+      <div class="mask rgba-black-light"></div>
+    </div>
+  </div>
+  
+</div>
+<!--/.Slides-->
+
+<!--Controls-->
+
+<!--/.Controls-->
+
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+
+    
+
+    <body class="bg-lighter ">
+<h1 class="text-center  mt-4 scroUp"> PuttPlot </h1>
+
+<div class="mainText">
+<div class="container w-75 mb-4">
+<h3>Overview</h3>
+<p>2019 Fall </p>
+   <p>这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)</p>
+
+<p>这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。</p>
+
+<p>在这个项目中，我们设计了一个高尔夫约会模拟游戏PuttPlot。可以理解为一个日式的2D约会模拟游戏，但你可以通过将球打到相应的洞中来选择你的反应。这个项目既具有挑战性又有趣，因为我们需要在VR中模拟3D高尔夫动作和物理，同时通过2D动画讲述一个有趣的故事。</p>
+
+<p>在这个为期6周的项目中，我是游戏的制作人/程序员。我们将为游戏进行6次迭代，每周开发一个样板，并在每周五展示一个Demo。</p>
+
+<p>这就是我们的故事。</p>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#week-1---脑洞大开" id="markdown-toc-week-1---脑洞大开">Week 1 - 脑洞大开</a>    <ul>
+      <li><a href="#producing" id="markdown-toc-producing">Producing</a></li>
+      <li><a href="#programming" id="markdown-toc-programming">Programming</a></li>
+    </ul>
+  </li>
+  <li><a href="#week-2---前期制作" id="markdown-toc-week-2---前期制作">Week 2 - 前期制作</a>    <ul>
+      <li><a href="#producing-1" id="markdown-toc-producing-1">Producing</a></li>
+      <li><a href="#programming-1" id="markdown-toc-programming-1">Programming</a></li>
+      <li><a href="#feedback-for-this-week" id="markdown-toc-feedback-for-this-week">Feedback for this week</a></li>
+    </ul>
+  </li>
+  <li><a href="#week-3---艰难的一周" id="markdown-toc-week-3---艰难的一周">Week 3 - 艰难的一周:(</a>    <ul>
+      <li><a href="#producing-2" id="markdown-toc-producing-2">Producing</a></li>
+      <li><a href="#programming-2" id="markdown-toc-programming-2">Programming</a></li>
+    </ul>
+  </li>
+  <li><a href="#week-4---play-testing" id="markdown-toc-week-4---play-testing">Week 4 - Play-Testing</a></li>
+  <li><a href="#week-5" id="markdown-toc-week-5">Week 5</a></li>
+  <li><a href="#week-6---release" id="markdown-toc-week-6---release">Week 6 - Release</a></li>
+  <li><a href="#credits" id="markdown-toc-credits">Credits</a></li>
+</ul>
+
+<h2 id="week-1---脑洞大开">Week 1 - 脑洞大开</h2>
+<p>我们的项目有很大的自由度。教授对我们的唯一的要求是它必须是一个可玩的VR游戏，并且灵感要来自任何野餐聚会游戏。当然，它还需要在6周内由，可以由一个5-6人的团队开发出来。</p>
+
+<p>我们在8月30日星期五组成了我们的团队。第二天，我们举行了第一次会议。在会议中，我们花了大约4个小时讨论游戏理念。我们的讨论范围很广，从技术挑战性强的 <em>HallBall</em>，到美式黑色幽默游戏 <em>Catch With Dad</em>。我提出的游戏理念是一款环境教育沙盒游戏，名为《树木》(<em>Tree</em>)，你可以在其中种植并摧毁树木，从而影响全球气温。遗憾的是，对于一个为期6周的项目来说，它有点超出了scope，所以我们最终没有实践它。</p>
+
+<p>经过几轮投票，我们最终产生了一个约会模拟高尔夫游戏的想法:<em>PuttPlot</em>。</p>
+<h3 id="producing">Producing</h3>
+<p>在我们决定了游戏理念后，我们需要在下一个周五展示一个可玩的Demo。我们合作把任务分配给团队中的每个人。这些任务包括演示板设计、2D艺术和击球机制。所有单独的任务都要在周三晚上完成。我们会用周四晚上的时间来合并所有单独的部分，成为一个游戏。</p>
+<h3 id="programming">Programming</h3>
+<p>在我们的第一个演示中，我们只是在球上使用刚体的代码，并在高尔夫球杆上添加了一个collider。每当球被击中时，我们都会在球棒的方向上给球加上一个力。因此，Unity引擎自带的物理将处理碰撞和高尔夫球将如何飞行。</p>
+
+<p>我们第一周做得很好。我们的Demo运行的很正常，听众们都挺喜欢它。我们也收到了很多建设性的反馈。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week1.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week1.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Concept Art for the game</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h2 id="week-2---前期制作">Week 2 - 前期制作</h2>
+<p>为了让事情顺利进行，我们这周做了很多前期准备工作。</p>
+<h3 id="producing-1">Producing</h3>
+<p>首先，我们决定了游戏的三大支柱:</p>
+
+<ol>
+  <li>笑:游戏应该非常非常有趣/颠覆预期</li>
+  <li>吸引人的故事:玩家的决定很重要</li>
+  <li>2D和3D的融合：球击中的板子需要与到对话选项难度相呼应</li>
+</ol>
+
+<p>我们的游戏主要由两个部分组成:一个是高尔夫力学，另一个是一个有趣的故事。所以在第二周，我们的作家Gus负责撰写故事，最后得到了一堆索引卡，里面全是他写的有趣的故事。我们的美工家Angelina负责设计概念图和角色艺术。我们的程序员Carter和Ann力于高尔夫球的挥杆动作。我负责3D板的设计和制作工作。</p>
+
+<p>我们仍然使用星期四融合到星期五展示的方法。由于我们做的很多工作都是前期制作，所以我们在周五展示的demo与前一周并没有太大的不同。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week2-story.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week2-story.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Draft story tree for the game</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h3 id="programming-1">Programming</h3>
+<p>本周，我们将尝试模拟高尔夫球在现实世界中的工作原理。在现实生活中，高尔夫球与球杆接触后不会立即飞走，而是会被球杆稍稍抬起一点，然后飞走。</p>
+
+<p>因此，我们试图在游戏中做到这一点，即在接触球后立即将球添加为球杆的子对象，这样球就会粘在球杆上。当球向挥杆的方向移动几毫秒后，我们将释放球并增加一个力使它飞起来。</p>
+
+<p>这个概念很好，但是最终的结果并不像我们希望的那样成功。球还是跑得太快，没有落在玩家期望的位置。</p>
+
+<h3 id="feedback-for-this-week">Feedback for this week</h3>
+<p>和上周一样，我们在周五的demo之后收到了很多反馈，我们总结为四点:</p>
+
+<ul>
+  <li>球太快/不够明显</li>
+  <li>文字看起来很糟糕</li>
+  <li>UI需要设计</li>
+  <li>击球的感觉不好。需要一个斜坡</li>
+</ul>
+
+<p>遗憾的是，我们忘记在前两个迭代中记录游戏视频，所以你将无法看到它们。</p>
+
+<p><br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week2-game.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week2-game.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">The second iteration</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h2 id="week-3---艰难的一周">Week 3 - 艰难的一周:(</h2>
+
+<p>在游戏的第三个迭代中，事情开始变得有点困难。这周我们召开了技术机会大会，这是CMU每年最大的招聘会。很多队友都在周一、周二和周三的招聘会中度过了他们所有的空闲时间。</p>
+
+<h3 id="producing-2">Producing</h3>
+<p>这意味着我们周三的checkpoint没有达到。所以我们只能在最后一分钟把所有东西放到一起。Carter、Gus和我在Hunt图书馆地下室一直呆到午夜以后。即使在那之后，我们提交的版本仍然有很多bug。</p>
+
+<p>我为游戏设计了几个关卡。而是因为我们没能及时实现对话过渡。我们从来没有机会达到新的关卡。因此，我们周五的演示并不理想。</p>
+
+<h3 id="programming-2">Programming</h3>
+
+<p>好在我们有一个坡道。我们上周得到的反馈之一是，仅仅把球打到洞里的感觉并不好。我们通过增加一个加速坡道来解决这个问题。在这种情况下，玩家只需要把球推到斜坡上，球就会飞到板上。</p>
+
+<p>希望下周我们能做得更好。</p>
+
+<p>写于2019年9月28日。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week3-ramp.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week3-ramp.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">The ramp</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h2 id="week-4---play-testing">Week 4 - Play-Testing</h2>
+<p>Will be updated on Oct 5, 2019.</p>
+<h2 id="week-5">Week 5</h2>
+<p>Will be updated on Oct 12, 2019.</p>
+<h2 id="week-6---release">Week 6 - Release</h2>
+<p>Will be updated on Oct 19, 2019.</p>
+<h2 id="credits">Credits</h2>
+<p>To be written</p>
+
+
+</div>
+<div class="mx-auto pb-3 text-center" style="width: 200px;">
+<a href="/contact" target="_blank" class="btn btn-rounded btn-dark">
+              <i class="fas fa-home"></i> Contact Me
+           </a>
+</div>
+
+</div>
+</body>
+
+
+    <footer class="page-footer font-small bg-dark" style="overflow: hidden;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+		<div class="row"><p>  </p></div>
+      <!-- Grid row -->
+      <div class="row mt-5">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Mailing Address</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p class="text-white">Carnegie Mellon University<br><br>
+			 5032 Forbes Avenue <br><br>
+			 SMC 1005                 <br><br>
+			 Pittsburgh, PA 15289<br>
+			 </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+          <p class="text-white">
+	        杨毓恺<br>
+            Sebastian Yang
+          </p>
+          <p class="text-white">
+            Email: SebastianYang@outlook.com
+          </p>
+          <p class="text-white">
+            Linkedin: <br>
+            <a href="http://linkedin.com/in/sebastian-yang-528805170" target="_blank"> Please introduce yourself with a custom note</a>
+          </p>
+
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="/index">Home</a>
+          </p>
+          <p>
+            <a href="/about">About Me</a>
+          </p>
+          <p>
+            <a href="/smartSeb">Portfolio</a>
+          </p>
+          <p>
+            <a href="/contact">Contact</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Wechat 公众号</h6>
+          <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><br>
+          <a href="/images/static/qr.JPG" target="_blank"><img src="/images/static/qr.JPG" class="w-75"/></a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center mt-2 py-3">© 2019 Copyright:
+      <a href="/index"> Sebastian Yang</a>
+      <p class="text-white"> Yukai Presents</p>
+
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- MDB core JavaScript -->
+	<script type="/text/javascript" src="js/mdb.min.js"></script>
+    <script src="/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/scrollreveal.js"></script>
+	<script src="/js/my.js"></script>
+	<script>
+		var slideUp = {
+	    distance: '150%',
+	    origin: 'bottom',
+	    opacity: null,
+	    duration: 700,
+		};
+		ScrollReveal().reveal('.scroUp',slideUp);
+	</script>
+
+
+
+
+</html>

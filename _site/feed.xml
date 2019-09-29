@@ -1,4 +1,171 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-15T08:06:22-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-28T21:43:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)&lt;/p&gt;
+
+&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
+
+&lt;p&gt;在这个项目中，我们设计了一个高尔夫约会模拟游戏PuttPlot。可以理解为一个日式的2D约会模拟游戏，但你可以通过将球打到相应的洞中来选择你的反应。这个项目既具有挑战性又有趣，因为我们需要在VR中模拟3D高尔夫动作和物理，同时通过2D动画讲述一个有趣的故事。&lt;/p&gt;
+
+&lt;p&gt;在这个为期6周的项目中，我是游戏的制作人/程序员。我们将为游戏进行6次迭代，每周开发一个样板，并在每周五展示一个Demo。&lt;/p&gt;
+
+&lt;p&gt;这就是我们的故事。&lt;/p&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-1---脑洞大开&quot; id=&quot;markdown-toc-week-1---脑洞大开&quot;&gt;Week 1 - 脑洞大开&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing&quot; id=&quot;markdown-toc-producing&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming&quot; id=&quot;markdown-toc-programming&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-2---前期制作&quot; id=&quot;markdown-toc-week-2---前期制作&quot;&gt;Week 2 - 前期制作&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing-1&quot; id=&quot;markdown-toc-producing-1&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming-1&quot; id=&quot;markdown-toc-programming-1&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#feedback-for-this-week&quot; id=&quot;markdown-toc-feedback-for-this-week&quot;&gt;Feedback for this week&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-3---艰难的一周&quot; id=&quot;markdown-toc-week-3---艰难的一周&quot;&gt;Week 3 - 艰难的一周:(&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing-2&quot; id=&quot;markdown-toc-producing-2&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming-2&quot; id=&quot;markdown-toc-programming-2&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-4---play-testing&quot; id=&quot;markdown-toc-week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-5&quot; id=&quot;markdown-toc-week-5&quot;&gt;Week 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-6---release&quot; id=&quot;markdown-toc-week-6---release&quot;&gt;Week 6 - Release&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#credits&quot; id=&quot;markdown-toc-credits&quot;&gt;Credits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;week-1---脑洞大开&quot;&gt;Week 1 - 脑洞大开&lt;/h2&gt;
+&lt;p&gt;我们的项目有很大的自由度。教授对我们的唯一的要求是它必须是一个可玩的VR游戏，并且灵感要来自任何野餐聚会游戏。当然，它还需要在6周内由，可以由一个5-6人的团队开发出来。&lt;/p&gt;
+
+&lt;p&gt;我们在8月30日星期五组成了我们的团队。第二天，我们举行了第一次会议。在会议中，我们花了大约4个小时讨论游戏理念。我们的讨论范围很广，从技术挑战性强的 &lt;em&gt;HallBall&lt;/em&gt;，到美式黑色幽默游戏 &lt;em&gt;Catch With Dad&lt;/em&gt;。我提出的游戏理念是一款环境教育沙盒游戏，名为《树木》(&lt;em&gt;Tree&lt;/em&gt;)，你可以在其中种植并摧毁树木，从而影响全球气温。遗憾的是，对于一个为期6周的项目来说，它有点超出了scope，所以我们最终没有实践它。&lt;/p&gt;
+
+&lt;p&gt;经过几轮投票，我们最终产生了一个约会模拟高尔夫游戏的想法:&lt;em&gt;PuttPlot&lt;/em&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;producing&quot;&gt;Producing&lt;/h3&gt;
+&lt;p&gt;在我们决定了游戏理念后，我们需要在下一个周五展示一个可玩的Demo。我们合作把任务分配给团队中的每个人。这些任务包括演示板设计、2D艺术和击球机制。所有单独的任务都要在周三晚上完成。我们会用周四晚上的时间来合并所有单独的部分，成为一个游戏。&lt;/p&gt;
+&lt;h3 id=&quot;programming&quot;&gt;Programming&lt;/h3&gt;
+&lt;p&gt;在我们的第一个演示中，我们只是在球上使用刚体的代码，并在高尔夫球杆上添加了一个collider。每当球被击中时，我们都会在球棒的方向上给球加上一个力。因此，Unity引擎自带的物理将处理碰撞和高尔夫球将如何飞行。&lt;/p&gt;
+
+&lt;p&gt;我们第一周做得很好。我们的Demo运行的很正常，听众们都挺喜欢它。我们也收到了很多建设性的反馈。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week1.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week1.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Concept Art for the game&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;week-2---前期制作&quot;&gt;Week 2 - 前期制作&lt;/h2&gt;
+&lt;p&gt;为了让事情顺利进行，我们这周做了很多前期准备工作。&lt;/p&gt;
+&lt;h3 id=&quot;producing-1&quot;&gt;Producing&lt;/h3&gt;
+&lt;p&gt;首先，我们决定了游戏的三大支柱:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;笑:游戏应该非常非常有趣/颠覆预期&lt;/li&gt;
+  &lt;li&gt;吸引人的故事:玩家的决定很重要&lt;/li&gt;
+  &lt;li&gt;2D和3D的融合：球击中的板子需要与到对话选项难度相呼应&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我们的游戏主要由两个部分组成:一个是高尔夫力学，另一个是一个有趣的故事。所以在第二周，我们的作家Gus负责撰写故事，最后得到了一堆索引卡，里面全是他写的有趣的故事。我们的美工家Angelina负责设计概念图和角色艺术。我们的程序员Carter和Ann力于高尔夫球的挥杆动作。我负责3D板的设计和制作工作。&lt;/p&gt;
+
+&lt;p&gt;我们仍然使用星期四融合到星期五展示的方法。由于我们做的很多工作都是前期制作，所以我们在周五展示的demo与前一周并没有太大的不同。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week2-story.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week2-story.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Draft story tree for the game&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h3 id=&quot;programming-1&quot;&gt;Programming&lt;/h3&gt;
+&lt;p&gt;本周，我们将尝试模拟高尔夫球在现实世界中的工作原理。在现实生活中，高尔夫球与球杆接触后不会立即飞走，而是会被球杆稍稍抬起一点，然后飞走。&lt;/p&gt;
+
+&lt;p&gt;因此，我们试图在游戏中做到这一点，即在接触球后立即将球添加为球杆的子对象，这样球就会粘在球杆上。当球向挥杆的方向移动几毫秒后，我们将释放球并增加一个力使它飞起来。&lt;/p&gt;
+
+&lt;p&gt;这个概念很好，但是最终的结果并不像我们希望的那样成功。球还是跑得太快，没有落在玩家期望的位置。&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback-for-this-week&quot;&gt;Feedback for this week&lt;/h3&gt;
+&lt;p&gt;和上周一样，我们在周五的demo之后收到了很多反馈，我们总结为四点:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;球太快/不够明显&lt;/li&gt;
+  &lt;li&gt;文字看起来很糟糕&lt;/li&gt;
+  &lt;li&gt;UI需要设计&lt;/li&gt;
+  &lt;li&gt;击球的感觉不好。需要一个斜坡&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;遗憾的是，我们忘记在前两个迭代中记录游戏视频，所以你将无法看到它们。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week2-game.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week2-game.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The second iteration&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;week-3---艰难的一周&quot;&gt;Week 3 - 艰难的一周:(&lt;/h2&gt;
+
+&lt;p&gt;在游戏的第三个迭代中，事情开始变得有点困难。这周我们召开了技术机会大会，这是CMU每年最大的招聘会。很多队友都在周一、周二和周三的招聘会中度过了他们所有的空闲时间。&lt;/p&gt;
+
+&lt;h3 id=&quot;producing-2&quot;&gt;Producing&lt;/h3&gt;
+&lt;p&gt;这意味着我们周三的checkpoint没有达到。所以我们只能在最后一分钟把所有东西放到一起。Carter、Gus和我在Hunt图书馆地下室一直呆到午夜以后。即使在那之后，我们提交的版本仍然有很多bug。&lt;/p&gt;
+
+&lt;p&gt;我为游戏设计了几个关卡。而是因为我们没能及时实现对话过渡。我们从来没有机会达到新的关卡。因此，我们周五的演示并不理想。&lt;/p&gt;
+
+&lt;h3 id=&quot;programming-2&quot;&gt;Programming&lt;/h3&gt;
+
+&lt;p&gt;好在我们有一个坡道。我们上周得到的反馈之一是，仅仅把球打到洞里的感觉并不好。我们通过增加一个加速坡道来解决这个问题。在这种情况下，玩家只需要把球推到斜坡上，球就会飞到板上。&lt;/p&gt;
+
+&lt;p&gt;希望下周我们能做得更好。&lt;/p&gt;
+
+&lt;p&gt;写于2019年9月28日。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week3-ramp.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week3-ramp.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The ramp&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/h2&gt;
+&lt;p&gt;Will be updated on Oct 5, 2019.&lt;/p&gt;
+&lt;h2 id=&quot;week-5&quot;&gt;Week 5&lt;/h2&gt;
+&lt;p&gt;Will be updated on Oct 12, 2019.&lt;/p&gt;
+&lt;h2 id=&quot;week-6---release&quot;&gt;Week 6 - Release&lt;/h2&gt;
+&lt;p&gt;Will be updated on Oct 19, 2019.&lt;/p&gt;
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;To be written&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
 &lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
 
@@ -963,7 +1130,7 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 &lt;h2 id=&quot;ayes-2019--人工智能&quot;&gt;AYES 2019 – “人工智能”&lt;/h2&gt;
 &lt;p&gt;尽管我在2017年正式从部门“退休”，但令我惊讶的是，两年后，现在的学生会成员仍然向我征求2019年AYES的建议。所以如果你参加了2019年AYES，你可能会在活动中看到我的影子。&lt;/p&gt;
 
-&lt;p&gt;我于2019年6月在CMU完成了大一的学习。我回到中国大约一个星期后，现在的组织者给我打电话，请求我加入他们的队伍。&lt;/p&gt;
+&lt;p&gt;我于2019年6月在CMU完成了大一的学习。我暑假回到中国大约一个星期后，现在的组织者联系到我，请求我加入他们的队伍。&lt;/p&gt;
 
 &lt;h3 id=&quot;用ai解决痛点&quot;&gt;用AI解决痛点&lt;/h3&gt;
 &lt;p&gt;今年的主题是人工智能。这是一个很难的话题。一方面，由于许多参会者不知道如何编写代码，我们不能使该活动过于技术化。另一方面，这次活动不能太以商业为导向，否则专门为了主题而来参加峰会的技术学生将会感到失望。&lt;/p&gt;
