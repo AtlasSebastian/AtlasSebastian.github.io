@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-28T21:43:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-05T10:15:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)&lt;/p&gt;
 
 &lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
 
@@ -27,8 +27,14 @@
       &lt;li&gt;&lt;a href=&quot;#programming-2&quot; id=&quot;markdown-toc-programming-2&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-4---play-testing&quot; id=&quot;markdown-toc-week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-5&quot; id=&quot;markdown-toc-week-5&quot;&gt;Week 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-4---play-testing&quot; id=&quot;markdown-toc-week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing-3&quot; id=&quot;markdown-toc-producing-3&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#a-small-bug&quot; id=&quot;markdown-toc-a-small-bug&quot;&gt;A “Small” Bug&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing-cont&quot; id=&quot;markdown-toc-producing-cont&quot;&gt;Producing (CONT)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming-3&quot; id=&quot;markdown-toc-programming-3&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-5---things-are-finally-coming-together&quot; id=&quot;markdown-toc-week-5---things-are-finally-coming-together&quot;&gt;Week 5 - Things Are Finally Coming Together&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-6---release&quot; id=&quot;markdown-toc-week-6---release&quot;&gt;Week 6 - Release&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#credits&quot; id=&quot;markdown-toc-credits&quot;&gt;Credits&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -159,13 +165,75 @@
 &lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
 
 &lt;h2 id=&quot;week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/h2&gt;
-&lt;p&gt;Will be updated on Oct 5, 2019.&lt;/p&gt;
-&lt;h2 id=&quot;week-5&quot;&gt;Week 5&lt;/h2&gt;
+&lt;p&gt;6周的时间只剩下3周了，但是我们仍然没有准备好核心游戏循环。所以本周只有一个目标:完成游戏循环。&lt;/p&gt;
+
+&lt;h3 id=&quot;producing-3&quot;&gt;Producing&lt;/h3&gt;
+
+&lt;p&gt;从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。&lt;/p&gt;
+
+&lt;p&gt;周二，我们在邀请人们进行游戏测试的同时修复了很多bug。在游戏测试接近尾声的时候，我们修复了上周遗留下来的所有bug，特别是一个阻止对话转移到下一个面板和选项的bug。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week4-player-view.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week4-player-view.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Week4 Player's View&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h3 id=&quot;a-small-bug&quot;&gt;A “Small” Bug&lt;/h3&gt;
+&lt;p&gt;然后我们又发现了一个小虫子。与其创造一个新球并摧毁旧球，我们循环使用10个高尔夫球。这意味着我们在游戏开始时创建了这些球，当你击出9号球时，0号球就会回来。&lt;/p&gt;
+
+&lt;p&gt;但是因为我们只改变了它的位置，所以如果球员非常快的打出所有的球，刚刚回来的球会仍然在上一次击球的受力作用下自己运动。因为我们是在进行游戏测试，所以没有时间去重写脚本，我们就直接在编辑器中把10改成了100000000，我们认为一个玩家不可能如此快速地打出100000000个球。&lt;/p&gt;
+
+&lt;p&gt;我们不假思索地按下播放键。但显然，在游戏开始时在for循环中初始化100000000个游戏对象是个坏主意……&lt;/p&gt;
+
+&lt;p&gt;Unity停止了响应。&lt;/p&gt;
+
+&lt;p&gt;我们心想:“Cool… 我重新打开Unity，把数字改回来就可以了。”&lt;/p&gt;
+
+&lt;p&gt;但是我们在输入这个巨大的数字之前忘记了保存项目……&lt;/p&gt;
+
+&lt;p&gt;所以那晚我们做的所有修改都没了…&lt;/p&gt;
+&lt;h3 id=&quot;producing-cont&quot;&gt;Producing (CONT)&lt;/h3&gt;
+&lt;p&gt;All was not lost。我们在周三再次整合的时候，以恢复周二所做的所有更改。周四我们还整合了更多的功能，比如背景、声音和对话。在周四晚上11:20左右，当我们试图将所有对话脚本对象和声音整合到我们的主游戏中时，游戏再次崩溃了，因为我的队友用了一个较老版本的事件系统(上周的版本)，而我们更改了系统……&lt;/p&gt;
+
+&lt;p&gt;我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。&lt;/p&gt;
+
+&lt;p&gt;作为制片人，这对我来说是一个艰难的选择。因为双方今晚都花了很多时间在工作上，他们都希望自己的努力可以呈现在游戏里。但我决定选择后者，因为一个简短快照可以让人们更好地理解游戏以及游戏完成后的样子。&lt;/p&gt;
+
+&lt;h3 id=&quot;programming-3&quot;&gt;Programming&lt;/h3&gt;
+&lt;p&gt;我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。
+Written on Oct 5, 2019.
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week4-environment.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week4-environment.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Week4 the environment behind the player&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;week-5---things-are-finally-coming-together&quot;&gt;Week 5 - Things Are Finally Coming Together&lt;/h2&gt;
 &lt;p&gt;Will be updated on Oct 12, 2019.&lt;/p&gt;
 &lt;h2 id=&quot;week-6---release&quot;&gt;Week 6 - Release&lt;/h2&gt;
 &lt;p&gt;Will be updated on Oct 19, 2019.&lt;/p&gt;
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
-&lt;p&gt;To be written&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+&lt;p&gt;To be written&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
 &lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
 

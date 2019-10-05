@@ -104,7 +104,7 @@
 <div class="container w-75 mb-4">
 <h3>Overview</h3>
 <p>2019 Fall </p>
-   <p>这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月5日发布(Hopefully)</p>
+   <p>「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)</p>
 
 <p>这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。</p>
 
@@ -133,8 +133,14 @@
       <li><a href="#programming-2" id="markdown-toc-programming-2">Programming</a></li>
     </ul>
   </li>
-  <li><a href="#week-4---play-testing" id="markdown-toc-week-4---play-testing">Week 4 - Play-Testing</a></li>
-  <li><a href="#week-5" id="markdown-toc-week-5">Week 5</a></li>
+  <li><a href="#week-4---play-testing" id="markdown-toc-week-4---play-testing">Week 4 - Play-Testing</a>    <ul>
+      <li><a href="#producing-3" id="markdown-toc-producing-3">Producing</a></li>
+      <li><a href="#a-small-bug" id="markdown-toc-a-small-bug">A “Small” Bug</a></li>
+      <li><a href="#producing-cont" id="markdown-toc-producing-cont">Producing (CONT)</a></li>
+      <li><a href="#programming-3" id="markdown-toc-programming-3">Programming</a></li>
+    </ul>
+  </li>
+  <li><a href="#week-5---things-are-finally-coming-together" id="markdown-toc-week-5---things-are-finally-coming-together">Week 5 - Things Are Finally Coming Together</a></li>
   <li><a href="#week-6---release" id="markdown-toc-week-6---release">Week 6 - Release</a></li>
   <li><a href="#credits" id="markdown-toc-credits">Credits</a></li>
 </ul>
@@ -265,8 +271,70 @@
 <!-- source from https://superdevresources.com/image-caption-jekyll/ -->
 
 <h2 id="week-4---play-testing">Week 4 - Play-Testing</h2>
-<p>Will be updated on Oct 5, 2019.</p>
-<h2 id="week-5">Week 5</h2>
+<p>6周的时间只剩下3周了，但是我们仍然没有准备好核心游戏循环。所以本周只有一个目标:完成游戏循环。</p>
+
+<h3 id="producing-3">Producing</h3>
+
+<p>从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。</p>
+
+<p>周二，我们在邀请人们进行游戏测试的同时修复了很多bug。在游戏测试接近尾声的时候，我们修复了上周遗留下来的所有bug，特别是一个阻止对话转移到下一个面板和选项的bug。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week4-player-view.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week4-player-view.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Week4 Player's View</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h3 id="a-small-bug">A “Small” Bug</h3>
+<p>然后我们又发现了一个小虫子。与其创造一个新球并摧毁旧球，我们循环使用10个高尔夫球。这意味着我们在游戏开始时创建了这些球，当你击出9号球时，0号球就会回来。</p>
+
+<p>但是因为我们只改变了它的位置，所以如果球员非常快的打出所有的球，刚刚回来的球会仍然在上一次击球的受力作用下自己运动。因为我们是在进行游戏测试，所以没有时间去重写脚本，我们就直接在编辑器中把10改成了100000000，我们认为一个玩家不可能如此快速地打出100000000个球。</p>
+
+<p>我们不假思索地按下播放键。但显然，在游戏开始时在for循环中初始化100000000个游戏对象是个坏主意……</p>
+
+<p>Unity停止了响应。</p>
+
+<p>我们心想:“Cool… 我重新打开Unity，把数字改回来就可以了。”</p>
+
+<p>但是我们在输入这个巨大的数字之前忘记了保存项目……</p>
+
+<p>所以那晚我们做的所有修改都没了…</p>
+<h3 id="producing-cont">Producing (CONT)</h3>
+<p>All was not lost。我们在周三再次整合的时候，以恢复周二所做的所有更改。周四我们还整合了更多的功能，比如背景、声音和对话。在周四晚上11:20左右，当我们试图将所有对话脚本对象和声音整合到我们的主游戏中时，游戏再次崩溃了，因为我的队友用了一个较老版本的事件系统(上周的版本)，而我们更改了系统……</p>
+
+<p>我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。</p>
+
+<p>作为制片人，这对我来说是一个艰难的选择。因为双方今晚都花了很多时间在工作上，他们都希望自己的努力可以呈现在游戏里。但我决定选择后者，因为一个简短快照可以让人们更好地理解游戏以及游戏完成后的样子。</p>
+
+<h3 id="programming-3">Programming</h3>
+<p>我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。
+Written on Oct 5, 2019.
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week4-environment.png" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week4-environment.png" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Week4 the environment behind the player</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<h2 id="week-5---things-are-finally-coming-together">Week 5 - Things Are Finally Coming Together</h2>
 <p>Will be updated on Oct 12, 2019.</p>
 <h2 id="week-6---release">Week 6 - Release</h2>
 <p>Will be updated on Oct 19, 2019.</p>
