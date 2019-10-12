@@ -104,7 +104,7 @@
 <div class="container w-75 mb-4">
 <h3>Overview</h3>
 <p>2019 Fall </p>
-   <p>「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)</p>
+   <p>「更新至第五周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月19日发布(Hopefully)</p>
 
 <p>这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。</p>
 
@@ -130,17 +130,23 @@
   </li>
   <li><a href="#week-3---艰难的一周" id="markdown-toc-week-3---艰难的一周">Week 3 - 艰难的一周:(</a>    <ul>
       <li><a href="#producing-2" id="markdown-toc-producing-2">Producing</a></li>
-      <li><a href="#programming-2" id="markdown-toc-programming-2">Programming</a></li>
+      <li><a href="#programming---a-ramp-is-built" id="markdown-toc-programming---a-ramp-is-built">Programming - A Ramp is Built</a></li>
     </ul>
   </li>
   <li><a href="#week-4---play-testing" id="markdown-toc-week-4---play-testing">Week 4 - Play-Testing</a>    <ul>
       <li><a href="#producing-3" id="markdown-toc-producing-3">Producing</a></li>
       <li><a href="#a-small-bug" id="markdown-toc-a-small-bug">A “Small” Bug</a></li>
       <li><a href="#producing-cont" id="markdown-toc-producing-cont">Producing (CONT)</a></li>
-      <li><a href="#programming-3" id="markdown-toc-programming-3">Programming</a></li>
+      <li><a href="#programming---the-ramp-is-on-fire" id="markdown-toc-programming---the-ramp-is-on-fire">Programming - The Ramp Is on Fire</a></li>
+      <li><a href="#lesson-learned" id="markdown-toc-lesson-learned">Lesson Learned</a></li>
     </ul>
   </li>
-  <li><a href="#week-5---things-are-finally-coming-together" id="markdown-toc-week-5---things-are-finally-coming-together">Week 5 - Things Are Finally Coming Together</a></li>
+  <li><a href="#week-5---things-are-finally-coming-together" id="markdown-toc-week-5---things-are-finally-coming-together">Week 5 - Things Are Finally Coming Together</a>    <ul>
+      <li><a href="#producing-4" id="markdown-toc-producing-4">Producing</a></li>
+      <li><a href="#programming---the-ramp-is-never-on" id="markdown-toc-programming---the-ramp-is-never-on">Programming - The Ramp is Never On</a></li>
+      <li><a href="#lesson-learned-1" id="markdown-toc-lesson-learned-1">Lesson Learned</a></li>
+    </ul>
+  </li>
   <li><a href="#week-6---release" id="markdown-toc-week-6---release">Week 6 - Release</a></li>
   <li><a href="#credits" id="markdown-toc-credits">Credits</a></li>
 </ul>
@@ -247,7 +253,7 @@
 
 <p>我为游戏设计了几个关卡。而是因为我们没能及时实现对话过渡。我们从来没有机会达到新的关卡。因此，我们周五的演示并不理想。</p>
 
-<h3 id="programming-2">Programming</h3>
+<h3 id="programming---a-ramp-is-built">Programming - A Ramp is Built</h3>
 
 <p>好在我们有一个坡道。我们上周得到的反馈之一是，仅仅把球打到洞里的感觉并不好。我们通过增加一个加速坡道来解决这个问题。在这种情况下，玩家只需要把球推到斜坡上，球就会飞到板上。</p>
 
@@ -275,7 +281,7 @@
 
 <h3 id="producing-3">Producing</h3>
 
-<p>从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。</p>
+<p>从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合代码和游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了代码整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。</p>
 
 <p>周二，我们在邀请人们进行游戏测试的同时修复了很多bug。在游戏测试接近尾声的时候，我们修复了上周遗留下来的所有bug，特别是一个阻止对话转移到下一个面板和选项的bug。
 <br /></p>
@@ -311,13 +317,17 @@
 <h3 id="producing-cont">Producing (CONT)</h3>
 <p>All was not lost。我们在周三再次整合的时候，以恢复周二所做的所有更改。周四我们还整合了更多的功能，比如背景、声音和对话。在周四晚上11:20左右，当我们试图将所有对话脚本对象和声音整合到我们的主游戏中时，游戏再次崩溃了，因为我的队友用了一个较老版本的事件系统(上周的版本)，而我们更改了系统……</p>
 
-<p>我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。</p>
+<p>我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合游戏。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。</p>
 
 <p>作为制片人，这对我来说是一个艰难的选择。因为双方今晚都花了很多时间在工作上，他们都希望自己的努力可以呈现在游戏里。但我决定选择后者，因为一个简短快照可以让人们更好地理解游戏以及游戏完成后的样子。</p>
 
-<h3 id="programming-3">Programming</h3>
-<p>我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。
-Written on Oct 5, 2019.
+<h3 id="programming---the-ramp-is-on-fire">Programming - The Ramp Is on Fire</h3>
+<p>我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。</p>
+
+<h3 id="lesson-learned">Lesson Learned</h3>
+<p>如果可能出错的事情，都会出错…… 所以要定期保存文件。</p>
+
+<p>Written on Oct 5, 2019.
 <br /></p>
 <div class="image-wrapper">
     
@@ -335,7 +345,41 @@ Written on Oct 5, 2019.
 <!-- source from https://superdevresources.com/image-caption-jekyll/ -->
 
 <h2 id="week-5---things-are-finally-coming-together">Week 5 - Things Are Finally Coming Together</h2>
-<p>Will be updated on Oct 12, 2019.</p>
+<p>还有两周的时间，我们终于确定了我们的核心游戏循环。这周我们的游戏整合了所有的主要元素:故事，推杆，环境和一些配音。</p>
+<h3 id="producing-4">Producing</h3>
+<p>自从上周我们进行了组织上的调整后，我们在周二晚上再次进行了用户测试，并在周三和周四晚上进行了代码整合。</p>
+
+<p>因为我们的游戏是以对话为中心的，一旦我们搭建好了对话系统，游戏就可以正常运行了。因此，本周我们看到之前所有的调试和编码工作终于有了回报(特别感谢我们的首席程序员Carter！)。我们还在玩家的侧面添加了聊天记录，这样玩家可以看到之前的聊天记录。</p>
+<h3 id="programming---the-ramp-is-never-on">Programming - The Ramp is Never On</h3>
+<p>还记得在第3周我们添加了一个斜坡吗？而在第4周，我们发现斜坡会让玩家的球飞的非常高吗? 这实际上有点奇怪，因为在第三周斜坡不会像在第4周那样造成那么多的偏差。所以这周我们试着通过重新调整斜坡和球在板上的落地位置来解决这个问题。</p>
+
+<p>我整个晚上都戴着VR头盔，而Carter在调整斜坡的参数。每次他一修改一些参数，我就会击球致斜坡，看看球落在什么地方。每次我们这么做的时候，我们都会说服自己，我们已经快成功了，只是还需要再做一些微调。
+<br /></p>
+<div class="image-wrapper">
+    
+      <a href=" /images/projects/PuttPlot/week5-recalibrate.gif" title="" target="_blank">
+    
+        <img src=" /images/projects/PuttPlot/week5-recalibrate.gif" alt="" class="w-100" />
+
+    </a>
+
+    
+        <p class="text-center">Recalibrating the Ramp</p>
+    
+
+</div>
+<!-- source from https://superdevresources.com/image-caption-jekyll/ -->
+
+<p>过了一段时间，我们有点沮丧，因为不管我们怎么调整参数，斜坡总是会把球送到过高的地方。等等，不管我们怎么改变参数…结果不会改变……这只能是……但那是不可能的……</p>
+
+<p>是的，斜坡的collider从来没有被开启。这个用来检测和加速高尔夫球的collider，这个我们一直以为我们在修改的collider，根本就没有开。我们一定是在测试的时候把它关掉了，然后忘了再打开。因为它是关闭的，所以在游戏中没有任何效果。而我们还花了快一个小时来“维修”它……</p>
+
+<p>当我们把它打开后，一切都很正常了。在周五的演示中，我们的客人，一位游戏测试者，似乎对我们的游戏印象深刻、好评不断，尤其是推杆的感觉。</p>
+
+<h3 id="lesson-learned-1">Lesson Learned</h3>
+<p>一旦你排除了所有的不可能，剩下的，无论多么不可能，一定是真相。</p>
+
+<p>Written on Oct 11, 2019.</p>
 <h2 id="week-6---release">Week 6 - Release</h2>
 <p>Will be updated on Oct 19, 2019.</p>
 <h2 id="credits">Credits</h2>

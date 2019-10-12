@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-05T10:15:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-12T19:28:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;「更新至第五周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月19日发布(Hopefully)&lt;/p&gt;
 
 &lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
 
@@ -24,17 +24,23 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-3---艰难的一周&quot; id=&quot;markdown-toc-week-3---艰难的一周&quot;&gt;Week 3 - 艰难的一周:(&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#producing-2&quot; id=&quot;markdown-toc-producing-2&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#programming-2&quot; id=&quot;markdown-toc-programming-2&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming---a-ramp-is-built&quot; id=&quot;markdown-toc-programming---a-ramp-is-built&quot;&gt;Programming - A Ramp is Built&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-4---play-testing&quot; id=&quot;markdown-toc-week-4---play-testing&quot;&gt;Week 4 - Play-Testing&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#producing-3&quot; id=&quot;markdown-toc-producing-3&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#a-small-bug&quot; id=&quot;markdown-toc-a-small-bug&quot;&gt;A “Small” Bug&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#producing-cont&quot; id=&quot;markdown-toc-producing-cont&quot;&gt;Producing (CONT)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#programming-3&quot; id=&quot;markdown-toc-programming-3&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming---the-ramp-is-on-fire&quot; id=&quot;markdown-toc-programming---the-ramp-is-on-fire&quot;&gt;Programming - The Ramp Is on Fire&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lesson-learned&quot; id=&quot;markdown-toc-lesson-learned&quot;&gt;Lesson Learned&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-5---things-are-finally-coming-together&quot; id=&quot;markdown-toc-week-5---things-are-finally-coming-together&quot;&gt;Week 5 - Things Are Finally Coming Together&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#week-5---things-are-finally-coming-together&quot; id=&quot;markdown-toc-week-5---things-are-finally-coming-together&quot;&gt;Week 5 - Things Are Finally Coming Together&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#producing-4&quot; id=&quot;markdown-toc-producing-4&quot;&gt;Producing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#programming---the-ramp-is-never-on&quot; id=&quot;markdown-toc-programming---the-ramp-is-never-on&quot;&gt;Programming - The Ramp is Never On&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lesson-learned-1&quot; id=&quot;markdown-toc-lesson-learned-1&quot;&gt;Lesson Learned&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-6---release&quot; id=&quot;markdown-toc-week-6---release&quot;&gt;Week 6 - Release&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#credits&quot; id=&quot;markdown-toc-credits&quot;&gt;Credits&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -141,7 +147,7 @@
 
 &lt;p&gt;我为游戏设计了几个关卡。而是因为我们没能及时实现对话过渡。我们从来没有机会达到新的关卡。因此，我们周五的演示并不理想。&lt;/p&gt;
 
-&lt;h3 id=&quot;programming-2&quot;&gt;Programming&lt;/h3&gt;
+&lt;h3 id=&quot;programming---a-ramp-is-built&quot;&gt;Programming - A Ramp is Built&lt;/h3&gt;
 
 &lt;p&gt;好在我们有一个坡道。我们上周得到的反馈之一是，仅仅把球打到洞里的感觉并不好。我们通过增加一个加速坡道来解决这个问题。在这种情况下，玩家只需要把球推到斜坡上，球就会飞到板上。&lt;/p&gt;
 
@@ -169,7 +175,7 @@
 
 &lt;h3 id=&quot;producing-3&quot;&gt;Producing&lt;/h3&gt;
 
-&lt;p&gt;从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。&lt;/p&gt;
+&lt;p&gt;从上周的经验中，我们试图在一周中添加更多的检查点和迭代。与其只在周四整合代码和游戏，我们这周在周二晚上进行了整合和试玩，并在周三和周四晚上再次进行了代码整合。这意味着我们至少可以在一周内迭代两次:一次是周二的游戏测试，另一次是周五的演示。&lt;/p&gt;
 
 &lt;p&gt;周二，我们在邀请人们进行游戏测试的同时修复了很多bug。在游戏测试接近尾声的时候，我们修复了上周遗留下来的所有bug，特别是一个阻止对话转移到下一个面板和选项的bug。
 &lt;br /&gt;&lt;/p&gt;
@@ -205,13 +211,17 @@
 &lt;h3 id=&quot;producing-cont&quot;&gt;Producing (CONT)&lt;/h3&gt;
 &lt;p&gt;All was not lost。我们在周三再次整合的时候，以恢复周二所做的所有更改。周四我们还整合了更多的功能，比如背景、声音和对话。在周四晚上11:20左右，当我们试图将所有对话脚本对象和声音整合到我们的主游戏中时，游戏再次崩溃了，因为我的队友用了一个较老版本的事件系统(上周的版本)，而我们更改了系统……&lt;/p&gt;
 
-&lt;p&gt;我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。&lt;/p&gt;
+&lt;p&gt;我们花了10-20分钟来解决这个问题。这意味着我们只剩下20分钟去整合游戏。我们必须做出一个艰难的选择，要么我们将所有的对话都放进去，这样玩家可以在没有配音的情况下玩较长的完整的游戏，要么我们将第一个场景的对话和配音放入，这样玩家可以玩一个完整的较短的游戏循环。&lt;/p&gt;
 
 &lt;p&gt;作为制片人，这对我来说是一个艰难的选择。因为双方今晚都花了很多时间在工作上，他们都希望自己的努力可以呈现在游戏里。但我决定选择后者，因为一个简短快照可以让人们更好地理解游戏以及游戏完成后的样子。&lt;/p&gt;
 
-&lt;h3 id=&quot;programming-3&quot;&gt;Programming&lt;/h3&gt;
-&lt;p&gt;我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。
-Written on Oct 5, 2019.
+&lt;h3 id=&quot;programming---the-ramp-is-on-fire&quot;&gt;Programming - The Ramp Is on Fire&lt;/h3&gt;
+&lt;p&gt;我们移动了高尔夫球的位置，但没有时间重新校准助推坡道。所以在我们周五的演示中，当我们的TA Adrian测试游戏时，斜坡的推力太大了，他的球飞出了很多。&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learned&quot;&gt;Lesson Learned&lt;/h3&gt;
+&lt;p&gt;如果可能出错的事情，都会出错…… 所以要定期保存文件。&lt;/p&gt;
+
+&lt;p&gt;Written on Oct 5, 2019.
 &lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
@@ -229,11 +239,45 @@ Written on Oct 5, 2019.
 &lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
 
 &lt;h2 id=&quot;week-5---things-are-finally-coming-together&quot;&gt;Week 5 - Things Are Finally Coming Together&lt;/h2&gt;
-&lt;p&gt;Will be updated on Oct 12, 2019.&lt;/p&gt;
+&lt;p&gt;还有两周的时间，我们终于确定了我们的核心游戏循环。这周我们的游戏整合了所有的主要元素:故事，推杆，环境和一些配音。&lt;/p&gt;
+&lt;h3 id=&quot;producing-4&quot;&gt;Producing&lt;/h3&gt;
+&lt;p&gt;自从上周我们进行了组织上的调整后，我们在周二晚上再次进行了用户测试，并在周三和周四晚上进行了代码整合。&lt;/p&gt;
+
+&lt;p&gt;因为我们的游戏是以对话为中心的，一旦我们搭建好了对话系统，游戏就可以正常运行了。因此，本周我们看到之前所有的调试和编码工作终于有了回报(特别感谢我们的首席程序员Carter！)。我们还在玩家的侧面添加了聊天记录，这样玩家可以看到之前的聊天记录。&lt;/p&gt;
+&lt;h3 id=&quot;programming---the-ramp-is-never-on&quot;&gt;Programming - The Ramp is Never On&lt;/h3&gt;
+&lt;p&gt;还记得在第3周我们添加了一个斜坡吗？而在第4周，我们发现斜坡会让玩家的球飞的非常高吗? 这实际上有点奇怪，因为在第三周斜坡不会像在第4周那样造成那么多的偏差。所以这周我们试着通过重新调整斜坡和球在板上的落地位置来解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;我整个晚上都戴着VR头盔，而Carter在调整斜坡的参数。每次他一修改一些参数，我就会击球致斜坡，看看球落在什么地方。每次我们这么做的时候，我们都会说服自己，我们已经快成功了，只是还需要再做一些微调。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/PuttPlot/week5-recalibrate.gif&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/PuttPlot/week5-recalibrate.gif&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Recalibrating the Ramp&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;过了一段时间，我们有点沮丧，因为不管我们怎么调整参数，斜坡总是会把球送到过高的地方。等等，不管我们怎么改变参数…结果不会改变……这只能是……但那是不可能的……&lt;/p&gt;
+
+&lt;p&gt;是的，斜坡的collider从来没有被开启。这个用来检测和加速高尔夫球的collider，这个我们一直以为我们在修改的collider，根本就没有开。我们一定是在测试的时候把它关掉了，然后忘了再打开。因为它是关闭的，所以在游戏中没有任何效果。而我们还花了快一个小时来“维修”它……&lt;/p&gt;
+
+&lt;p&gt;当我们把它打开后，一切都很正常了。在周五的演示中，我们的客人，一位游戏测试者，似乎对我们的游戏印象深刻、好评不断，尤其是推杆的感觉。&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learned-1&quot;&gt;Lesson Learned&lt;/h3&gt;
+&lt;p&gt;一旦你排除了所有的不可能，剩下的，无论多么不可能，一定是真相。&lt;/p&gt;
+
+&lt;p&gt;Written on Oct 11, 2019.&lt;/p&gt;
 &lt;h2 id=&quot;week-6---release&quot;&gt;Week 6 - Release&lt;/h2&gt;
 &lt;p&gt;Will be updated on Oct 19, 2019.&lt;/p&gt;
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
-&lt;p&gt;To be written&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">「更新至第四周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月12日发布(Hopefully)</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
+&lt;p&gt;To be written&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">「更新至第五周」这项工程仍在进行中。我将每周更新这个网站。下一个更新将于2019年10月19日发布(Hopefully)</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个Big Skinny公司目前的UX和营销策略，重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
 &lt;p&gt;经过两周的工作，我的团队不仅在成果上获得了A，还获得了2019年ISM最佳案例分析奖。&lt;/p&gt;
 
