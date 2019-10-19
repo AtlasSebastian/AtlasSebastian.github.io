@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-18T22:57:10-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-19T13:55:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
 
 &lt;p&gt;在这个项目中，我们设计了一个高尔夫约会模拟游戏PuttPlot。可以理解为一个日式的2D约会模拟游戏，但你可以通过将球打到相应的洞中来选择你的反应。这个项目既具有挑战性又有趣，因为我们需要在VR中模拟3D高尔夫动作和物理，同时通过2D动画讲述一个有趣的故事。&lt;/p&gt;
 
@@ -1057,9 +1057,9 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;p&gt;仅仅通过一张海报来展示我们做的事情是不可能的（虽然我们设计了很多张海报），所以我想为社团制作一个宣传视频，以此吸引新的成员。同样的困难再次出现，在这方面我们同样是毫无经验，自然而然地，我们只能走一步学一步。我的伙伴们帮我录制了脚本，之后我用两天完成剪辑。话说在前，这个视频的制作者只是初试牛刀，所以也许这不是你所见到的最精彩的宣传视频。以下是完整视频：&lt;/p&gt;
 
-&lt;iframe class=&quot;w-100&quot; src=&quot;http://player.bilibili.com/player.html?aid=53790012&amp;amp;cid=94089671&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; height=&quot;500px&quot; frameborder=&quot;no&quot;&gt; &lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53790012&amp;amp;cid=94089671&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; class=&quot;w-100&quot; height=&quot;500px&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;拉取赞助&quot;&gt;拉取赞助&lt;/h3&gt;
 &lt;p&gt;在参赛过程中，我们要飞往北京和印度，因此需要赞助商来为我们提供经费。作为社长，我必须确保我们得到赞助。由于我们的高中并没有赞助此类校外赛事的先例，我们与学校的相关人员不断商议(特别感谢焕炎老师！！)，成功劝说他们补贴了部分经费。我又一次次穿过大半个厦门去与启德教育集团（EIC）协商，并达成了合作。最后，学校支付了我们的食宿开销，EIC赞助了我们的机票费，我们社团节省了大约三万元人民币。&lt;/p&gt;
 
