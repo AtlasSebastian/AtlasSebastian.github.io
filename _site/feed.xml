@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-29T09:22:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-02T13:45:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">PuttPlot</title><link href="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR" rel="alternate" type="text/html" title="PuttPlot" /><published>2019-09-21T20:40:23-04:00</published><updated>2019-09-21T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/PuttPlot-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
 
 &lt;p&gt;在这个项目中，我们设计了一个高尔夫约会模拟游戏PuttPlot。可以理解为一个日式的2D约会模拟游戏，但你可以通过将球打到相应的洞中来选择你的反应。这个项目既具有挑战性又有趣，因为我们需要在VR中模拟3D高尔夫动作和物理，同时通过2D动画讲述一个有趣的故事。&lt;/p&gt;
 
@@ -305,6 +305,9 @@
 &lt;h3 id=&quot;lesson-learned-2&quot;&gt;Lesson Learned&lt;/h3&gt;
 &lt;p&gt;Last-Known-Good 是你的好朋友&lt;/p&gt;
 
+&lt;div class=&quot;iframe-container&quot;&gt;&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=73084415&amp;amp;cid=124963941&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 &lt;p&gt;这是我第一次担任游戏制作人。这对我来说真的是一次学习的经历。所以我非常感谢有一个支持我的团队。我想特别感谢我们的程序员Carter Williams，我们的作家Gus Saalfeld和我们的艺术家安Angelina Shi。没有他们和所有其他队友的贡献，这个项目是不可能完成的。&lt;/p&gt;</content><author><name></name></author><category term="Product_Project_Management" /><category term="Game_Design" /><category term="All" /><summary type="html">这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。</summary></entry><entry><title type="html">BigSkinny</title><link href="http://localhost:4000/projects/2019/spring/BigSkinny" rel="alternate" type="text/html" title="BigSkinny" /><published>2019-08-13T16:00:23-04:00</published><updated>2019-08-13T16:00:23-04:00</updated><id>http://localhost:4000/projects/2019/spring/BigSkinny</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/BigSkinny">&lt;p&gt;这是 CMU 67-250:信息系统环境 的学期项目。在这个学期项目中，我们是SQL Injection咨询团队，我们的任务是通过分析一个叫Big Skinny的公司目前的网页和营销策略，来重塑其品牌。在整个过程中，我们重新设计了Big Skinny的网站，概述了新的数据库结构，并编写了详细的案例分析。&lt;/p&gt;
 
@@ -503,7 +506,8 @@
 &lt;p&gt;这是 CMU 15-112计算机基础和编程的学期项目 这是我开发的第一款电子游戏。它是在python中编程设计的，并且使用了pygame扩展包。这个项目是对flash游戏坦克大战的再现。我选择制作坦克大战是因为我以前经常和我高中的朋友玩这个游戏。&lt;/p&gt;
 
 &lt;p&gt;希望这篇文章可以供未来的15112学生参考，你可以在这里看到一个3分钟的游戏预告片：&lt;/p&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53536376&amp;amp;cid=93657975&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; class=&quot;w-100&quot; height=&quot;500px&quot;&gt; &lt;/iframe&gt;
+
+&lt;div class=&quot;iframe-container&quot;&gt; &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53536376&amp;amp;cid=93657975&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt; &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;no_toc&quot; id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
@@ -1057,7 +1061,8 @@ pygame.sprite.collide(self,map)&lt;/code&gt;
 
 &lt;p&gt;仅仅通过一张海报来展示我们做的事情是不可能的（虽然我们设计了很多张海报），所以我想为社团制作一个宣传视频，以此吸引新的成员。同样的困难再次出现，在这方面我们同样是毫无经验，自然而然地，我们只能走一步学一步。我的伙伴们帮我录制了脚本，之后我用两天完成剪辑。话说在前，这个视频的制作者只是初试牛刀，所以也许这不是你所见到的最精彩的宣传视频。以下是完整视频：&lt;/p&gt;
 
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53790012&amp;amp;cid=94089671&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; class=&quot;w-100&quot; height=&quot;500px&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+&lt;div class=&quot;iframe-container&quot;&gt; &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=53790012&amp;amp;cid=94089671&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;拉取赞助&quot;&gt;拉取赞助&lt;/h3&gt;

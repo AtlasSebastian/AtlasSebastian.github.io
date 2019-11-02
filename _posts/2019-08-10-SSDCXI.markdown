@@ -148,7 +148,7 @@ carousel:
 
 仅仅通过一张海报来展示我们做的事情是不可能的（虽然我们设计了很多张海报），所以我想为社团制作一个宣传视频，以此吸引新的成员。同样的困难再次出现，在这方面我们同样是毫无经验，自然而然地，我们只能走一步学一步。我的伙伴们帮我录制了脚本，之后我用两天完成剪辑。话说在前，这个视频的制作者只是初试牛刀，所以也许这不是你所见到的最精彩的宣传视频。以下是完整视频：
 
-<iframe src="//player.bilibili.com/player.html?aid=53790012&cid=94089671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" class="w-100" height="500px" allowfullscreen="true"> </iframe>
+<div class="iframe-container"> <iframe src="//player.bilibili.com/player.html?aid=53790012&cid=94089671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"  allowfullscreen="true"> </iframe></div><br>
 
 <br>
 ### 拉取赞助
