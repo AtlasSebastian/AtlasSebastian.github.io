@@ -15,8 +15,10 @@ carousel:
   - image: /ggj16sticker.png
 
 ---
-游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 30小时内开发完成
+游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 一天半内开发完成
 
 开发者: Grace Liu, Jan Orlowski, Jess Cao, Joseph Perrino, Sebastian Yang. （按字母顺序排）
 
 获得最佳多样性奖
+
+已上架 [Google Play](https://play.google.com/store/apps/details?id=com.SebLab.PairsOfHearts)
