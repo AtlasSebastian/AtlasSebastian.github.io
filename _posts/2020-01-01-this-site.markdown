@@ -1,0 +1,79 @@
+---
+title: This Website
+date: 2020-01-01 20:40:23 -0400 #date this page is written
+
+categories: projects 2019 spring #project folder, beginning year and season
+tags: All Web_Design
+#tags options: Highlight Event_Planning Entrepreneurship Product/Project_Management Game_Design Marketing Negotiation  Web_Design
+
+start-season: "2019 Spring"
+
+assetLoco: /images/projects/thissite
+coverPic: /cover.png
+carousel:
+  - image: /cover.png
+---
+
+这个网站完全是由我，Sebastian Yang，用HTML, CSS和JS设计和开发的。我使用了Jekyll布局代码，部署在Github上。它经历了三次迭代，并定期更新。这篇文章讲述了这个网站背后的故事:这个网站的目的是什么，它是如何被开发的，以及我的计划。
+
+## Table of Contents
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+## 目的
+
+如果您只对技术部分感兴趣，欢迎跳过这部分。:)
+
+网站是一个很好的互动式的讲故事方法。当我看简历时，我只能看到一系列属性，就好像我是通过看他或她的特征来选择一个电子游戏角色一样。但当我访问某人的网站时，我看到一个活生生的人在讲故事。因此，我想通过网页向任何感兴趣的人展示一个更完整的我自己。
+
+除此之外，我还想有一个地方可以记录我做过的有趣的项目。在我高中毕业典礼上，一个朋友谈起我们在高一花了几个月时间做的一个研究项目，我很困惑，因为我不记得曾经和他一起做过研究项目。直到那天晚上，我才想起来了 ———— 我们不仅花了几个月的时间在这个项目上，而且还因为做了一个演讲而获奖，但我完全忘了这件事。
+
+10年或20年后，如果我忘记了这些有趣的项目和与我一起工作的很酷的人，那将是一件很遗憾的事情。尽管我知道访问者不会阅读我写的所有帖子，但这些帖子对我来说就像一个个人档案，提醒我自己哪些和我一起工作的人，以及我们一起完成的事情。
+
+现在让我们来看看这个站点是如何开发的。
+
+## 第一次迭代
+
+第一次迭代是在 CMU67-250:信息系统环境 课中开发的。我为作业开发了一个非常简单的网站。
+{% include image.html img="v18.3.png" caption="The First Iteration"%}
+
+第一个版本是用HTML、CSS和JS编写的。但正如你所看到的，它看起来很糟糕。如果我希望为我的项目设计一个存档点，我需要它看起来更好，更互动。
+
+(有趣的是:您仍然可以在[此处](/v18.3)访问这个版本的网站)
+
+## 第二次迭代
+
+第一次迭代的设计是不可挽救的。所以我开始从头开始重新设计网站。我想让这个网站给人一种现代感和互动感，同时让用户感到熟悉，能给人留下深刻的印象。
+
+大约有一周的时间，每天晚上10点左右完成作业后，我会去Hunt Library。我每天晚上花一个小时来设计和开发这个网站。这个版本的网站看起来和你现在看到的差不多。你现在看到的美学和UI设计都是在那一周内设计和开发的。唯一的视觉上的不同是它有更少的帖子和没有一个[游戏部分](/games.html)。
+{% include image.html img="english.png" caption="The Second Iteration"%}
+
+该站点在移动设备上也能完全响应，因为我使用了Bootstrap CSS框架，并在开发过程中的每一步都测试了响应性。然后我将网站部署在[GitHub](https://pages.github.com/)。
+
+总的来说，我在7天的时间里花了10个小时来完成和部署这个站点。事后看来，我很惊讶，因为当时我几乎没有任何网页设计经验，尤其是代码方面的经验。但我想，当你对某件事充满激情时，没有什么能阻止你。
+
+### 2.5次迭代
+
+第二次迭代大约一个月后，我把网站翻译成了中文，并买了一个新域名。实际上，我把同一个网站部署到了一个新的GitHub账户上，但文本都是中文的。
+{% include image.html img="chinese.png" caption="The Chinese Site"%}
+
+这就是我遇到一些麻烦的时候:每当我想添加一个新帖子，我需要编辑HTML代码和使用 `<p>text</p>`. 每当我想换行时都要用`<br>`. 这是超级慢和令人沮丧的，特别是当我有很多文本。
+{% include image.html img="html.png" caption="Working with HTML"%}
+
+## 第三次迭代
+
+文网站上线三个月后，我使用[Jekyll](https://jekyllrb.com/)从头开始重建网站。Jekyll是一个静态站点生成器。这意味着在我为所有的文章设置了框架之后，我可以只在[Markdown](https://www.markdownguide.org/)中写入内容，这非常类似于在txt文件中写入文本。
+{% include image.html img="jekyll.png" caption="Working with Markdown"%}
+
+Jekyll还允许我在中文和英文网站之间无缝翻译。现在无论你读的是哪篇文章，如果你点击中文按钮，你都会被带到该网站的中文译本，而不是首页。
+
+如果你正在开发个人博客或作品集网站，我强烈推荐使用Jekyll。它易于学习，使用有趣，并允许您把关注点放在内容上。
+
+## 未来计划
+
+我把这个网站看作是我所有项目的枢纽。我将继续更新网站和我的最新项目。可能会晚一点，因为我只有在暑假或寒假才有空。但我期待着增加更多的项目。
+
+我也可能考虑使用[React](https://reactjs.org/)重新构建网站。这将使我的网站更具交互性。
+
+今年早些时候，我还添加了一个新的[游戏](/games.html)部分。但在腾讯游戏和字节跳动游戏实习期间，我玩的游戏太多了，没有时间全部更新。我正在寻找一种精简的方法来记录我玩过的所有游戏。我目前正在开发一个全栈的网站，它将成为我的游戏和书籍的个人档案。这个网站应该能够将数据库导出到CSV文件中，这样我以后就可以用R对我玩过的游戏和读过的书进行数据分析。

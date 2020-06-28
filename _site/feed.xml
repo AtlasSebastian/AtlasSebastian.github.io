@@ -1,10 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-10T09:45:17-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">Game Jam</title><link href="http://localhost:4000/projects/2020/spring/Pairs-of-Hearts" rel="alternate" type="text/html" title="Game Jam" /><published>2020-02-03T19:40:23-05:00</published><updated>2020-02-03T19:40:23-05:00</updated><id>http://localhost:4000/projects/2020/spring/Pairs-of-Hearts</id><content type="html" xml:base="http://localhost:4000/projects/2020/spring/Pairs-of-Hearts">&lt;p&gt;游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 30小时开发完成。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-28T09:28:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sebastian Yang</title><subtitle>This is the personal website for Sebastian Yang aka 杨毓恺.</subtitle><entry><title type="html">Game Jam</title><link href="http://localhost:4000/projects/2020/spring/Pairs-of-Hearts" rel="alternate" type="text/html" title="Game Jam" /><published>2020-02-03T19:40:23-05:00</published><updated>2020-02-03T19:40:23-05:00</updated><id>http://localhost:4000/projects/2020/spring/Pairs-of-Hearts</id><content type="html" xml:base="http://localhost:4000/projects/2020/spring/Pairs-of-Hearts">&lt;p&gt;游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 30小时开发完成。&lt;/p&gt;
 
 &lt;p&gt;开发者: Grace Liu, Jan Orlowski, Jess Cao, Joseph Perrino, Sebastian Yang. （按字母顺序排）&lt;/p&gt;
 
 &lt;p&gt;获得最佳多样性奖&lt;/p&gt;
 
-&lt;p&gt;已上架 &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.SebLab.PairsOfHearts&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Game_Design" /><category term="All" /><summary type="html">游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 30小时开发完成。</summary></entry><entry><title type="html">Boogieman VR</title><link href="http://localhost:4000/projects/2019/fall/Boogieman-UnityVR" rel="alternate" type="text/html" title="Boogieman VR" /><published>2019-09-22T20:40:23-04:00</published><updated>2019-09-22T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/Boogieman-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/Boogieman-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
+&lt;p&gt;已上架 &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.SebLab.PairsOfHearts&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Game_Design" /><category term="All" /><summary type="html">游戏于 2020 Global Game Jam （全球游戏黑客马拉松） 30小时开发完成。</summary></entry><entry><title type="html">This Website</title><link href="http://localhost:4000/projects/2019/spring/this-site" rel="alternate" type="text/html" title="This Website" /><published>2020-01-01T19:40:23-05:00</published><updated>2020-01-01T19:40:23-05:00</updated><id>http://localhost:4000/projects/2019/spring/this-site</id><content type="html" xml:base="http://localhost:4000/projects/2019/spring/this-site">&lt;p&gt;这个网站完全是由我，Sebastian Yang，用HTML, CSS和JS设计和开发的。我使用了Jekyll布局代码，部署在Github上。它经历了三次迭代，并定期更新。这篇文章讲述了这个网站背后的故事:这个网站的目的是什么，它是如何被开发的，以及我的计划。&lt;/p&gt;
+
+&lt;h2 class=&quot;no_toc&quot; id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#目的&quot; id=&quot;markdown-toc-目的&quot;&gt;目的&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第一次迭代&quot; id=&quot;markdown-toc-第一次迭代&quot;&gt;第一次迭代&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第二次迭代&quot; id=&quot;markdown-toc-第二次迭代&quot;&gt;第二次迭代&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#25次迭代&quot; id=&quot;markdown-toc-25次迭代&quot;&gt;2.5次迭代&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#第三次迭代&quot; id=&quot;markdown-toc-第三次迭代&quot;&gt;第三次迭代&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#未来计划&quot; id=&quot;markdown-toc-未来计划&quot;&gt;未来计划&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;目的&quot;&gt;目的&lt;/h2&gt;
+
+&lt;p&gt;如果您只对技术部分感兴趣，欢迎跳过这部分。:)&lt;/p&gt;
+
+&lt;p&gt;网站是一个很好的互动式的讲故事方法。当我看简历时，我只能看到一系列属性，就好像我是通过看他或她的特征来选择一个电子游戏角色一样。但当我访问某人的网站时，我看到一个活生生的人在讲故事。因此，我想通过网页向任何感兴趣的人展示一个更完整的我自己。&lt;/p&gt;
+
+&lt;p&gt;除此之外，我还想有一个地方可以记录我做过的有趣的项目。在我高中毕业典礼上，一个朋友谈起我们在高一花了几个月时间做的一个研究项目，我很困惑，因为我不记得曾经和他一起做过研究项目。直到那天晚上，我才想起来了 ———— 我们不仅花了几个月的时间在这个项目上，而且还因为做了一个演讲而获奖，但我完全忘了这件事。&lt;/p&gt;
+
+&lt;p&gt;10年或20年后，如果我忘记了这些有趣的项目和与我一起工作的很酷的人，那将是一件很遗憾的事情。尽管我知道访问者不会阅读我写的所有帖子，但这些帖子对我来说就像一个个人档案，提醒我自己哪些和我一起工作的人，以及我们一起完成的事情。&lt;/p&gt;
+
+&lt;p&gt;现在让我们来看看这个站点是如何开发的。&lt;/p&gt;
+
+&lt;h2 id=&quot;第一次迭代&quot;&gt;第一次迭代&lt;/h2&gt;
+
+&lt;p&gt;第一次迭代是在 CMU67-250:信息系统环境 课中开发的。我为作业开发了一个非常简单的网站。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/thissite/v18.3.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/thissite/v18.3.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The First Iteration&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;第一个版本是用HTML、CSS和JS编写的。但正如你所看到的，它看起来很糟糕。如果我希望为我的项目设计一个存档点，我需要它看起来更好，更互动。&lt;/p&gt;
+
+&lt;p&gt;(有趣的是:您仍然可以在&lt;a href=&quot;/v18.3&quot;&gt;此处&lt;/a&gt;访问这个版本的网站)&lt;/p&gt;
+
+&lt;h2 id=&quot;第二次迭代&quot;&gt;第二次迭代&lt;/h2&gt;
+
+&lt;p&gt;第一次迭代的设计是不可挽救的。所以我开始从头开始重新设计网站。我想让这个网站给人一种现代感和互动感，同时让用户感到熟悉，能给人留下深刻的印象。&lt;/p&gt;
+
+&lt;p&gt;大约有一周的时间，每天晚上10点左右完成作业后，我会去Hunt Library。我每天晚上花一个小时来设计和开发这个网站。这个版本的网站看起来和你现在看到的差不多。你现在看到的美学和UI设计都是在那一周内设计和开发的。唯一的视觉上的不同是它有更少的帖子和没有一个&lt;a href=&quot;/games.html&quot;&gt;游戏部分&lt;/a&gt;。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/thissite/english.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/thissite/english.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The Second Iteration&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;该站点在移动设备上也能完全响应，因为我使用了Bootstrap CSS框架，并在开发过程中的每一步都测试了响应性。然后我将网站部署在&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;总的来说，我在7天的时间里花了10个小时来完成和部署这个站点。事后看来，我很惊讶，因为当时我几乎没有任何网页设计经验，尤其是代码方面的经验。但我想，当你对某件事充满激情时，没有什么能阻止你。&lt;/p&gt;
+
+&lt;h3 id=&quot;25次迭代&quot;&gt;2.5次迭代&lt;/h3&gt;
+
+&lt;p&gt;第二次迭代大约一个月后，我把网站翻译成了中文，并买了一个新域名。实际上，我把同一个网站部署到了一个新的GitHub账户上，但文本都是中文的。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/thissite/chinese.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/thissite/chinese.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;The Chinese Site&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;这就是我遇到一些麻烦的时候:每当我想添加一个新帖子，我需要编辑HTML代码和使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;text&amp;lt;/p&amp;gt;&lt;/code&gt;. 每当我想换行时都要用&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt;. 这是超级慢和令人沮丧的，特别是当我有很多文本。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/thissite/html.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/thissite/html.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Working with HTML&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;h2 id=&quot;第三次迭代&quot;&gt;第三次迭代&lt;/h2&gt;
+
+&lt;p&gt;文网站上线三个月后，我使用&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;从头开始重建网站。Jekyll是一个静态站点生成器。这意味着在我为所有的文章设置了框架之后，我可以只在&lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;Markdown&lt;/a&gt;中写入内容，这非常类似于在txt文件中写入文本。
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+      &lt;a href=&quot; /images/projects/thissite/jekyll.png&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;
+    
+        &lt;img src=&quot; /images/projects/thissite/jekyll.png&quot; alt=&quot;&quot; class=&quot;w-100&quot; /&gt;
+
+    &lt;/a&gt;
+
+    
+        &lt;p class=&quot;text-center&quot;&gt;Working with Markdown&lt;/p&gt;
+    
+
+&lt;/div&gt;
+&lt;!-- source from https://superdevresources.com/image-caption-jekyll/ --&gt;
+
+&lt;p&gt;Jekyll还允许我在中文和英文网站之间无缝翻译。现在无论你读的是哪篇文章，如果你点击中文按钮，你都会被带到该网站的中文译本，而不是首页。&lt;/p&gt;
+
+&lt;p&gt;如果你正在开发个人博客或作品集网站，我强烈推荐使用Jekyll。它易于学习，使用有趣，并允许您把关注点放在内容上。&lt;/p&gt;
+
+&lt;h2 id=&quot;未来计划&quot;&gt;未来计划&lt;/h2&gt;
+
+&lt;p&gt;我把这个网站看作是我所有项目的枢纽。我将继续更新网站和我的最新项目。可能会晚一点，因为我只有在暑假或寒假才有空。但我期待着增加更多的项目。&lt;/p&gt;
+
+&lt;p&gt;我也可能考虑使用&lt;a href=&quot;https://reactjs.org/&quot;&gt;React&lt;/a&gt;重新构建网站。这将使我的网站更具交互性。&lt;/p&gt;
+
+&lt;p&gt;今年早些时候，我还添加了一个新的&lt;a href=&quot;/games.html&quot;&gt;游戏&lt;/a&gt;部分。但在腾讯游戏和字节跳动游戏实习期间，我玩的游戏太多了，没有时间全部更新。我正在寻找一种精简的方法来记录我玩过的所有游戏。我目前正在开发一个全栈的网站，它将成为我的游戏和书籍的个人档案。这个网站应该能够将数据库导出到CSV文件中，这样我以后就可以用R对我玩过的游戏和读过的书进行数据分析。&lt;/p&gt;</content><author><name></name></author><category term="All" /><category term="Web_Design" /><summary type="html">这个网站完全是由我，Sebastian Yang，用HTML, CSS和JS设计和开发的。我使用了Jekyll布局代码，部署在Github上。它经历了三次迭代，并定期更新。这篇文章讲述了这个网站背后的故事:这个网站的目的是什么，它是如何被开发的，以及我的计划。</summary></entry><entry><title type="html">Boogieman VR</title><link href="http://localhost:4000/projects/2019/fall/Boogieman-UnityVR" rel="alternate" type="text/html" title="Boogieman VR" /><published>2019-09-22T20:40:23-04:00</published><updated>2019-09-22T20:40:23-04:00</updated><id>http://localhost:4000/projects/2019/fall/Boogieman-UnityVR</id><content type="html" xml:base="http://localhost:4000/projects/2019/fall/Boogieman-UnityVR">&lt;p&gt;这是一个CMU 53-451课程的团队项目。课程名称为：游戏开发中的科研问题:XR的设计。这是一门由Tom Corbett教授教授的游戏设计/研究课程，我们将以团队的形式在VR/AR中设计电子游戏。&lt;/p&gt;
 
 &lt;p&gt;在这个项目中，我们设计了一个VR节奏舞蹈游戏。我们最初的想法是使用ML和OpenCV，这样玩家可以自由跳舞。然后我们意识到这不够有趣。最终的结果是一个类似于Beat Saber的节奏打击舞蹈游戏——随着你一边打击节拍，你就会跳起舞来。当我们在最后的演示中，不仅仅VR中的人在跳舞，全班同学都自发地跟着游戏起舞时，这时我们就知道我们成功了。&lt;/p&gt;
 
