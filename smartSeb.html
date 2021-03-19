@@ -15,13 +15,14 @@ carousel:
               <div class="col-12 scroUp">
                <h1 class="text-center  mt-4">Gallery</h1>
                <hr class="w-25">
-                <p class="text-center mb-4 scroUp">为社会增添的价值</p>
-                </div>
-          </div>
+               <p class="text-center mb-4 scroUp">The value added to the society</p>
+              </div>
+
+            </div>
             <!-- refer from https://www.bootply.com/L5H5B8zbqB -->
             <div align="center">
               {% for tag in site.project_tags %}
-                <button class="btn btn-elegant filter-button text-capitalize {% if tag =="All" %} active {% endif %}" data-filter="{{tag}}">{{tag | replace:"_"," "}}</button>
+              <button class="btn btn-elegant filter-button text-capitalize {% if tag =="All" %} active {% endif %}" data-filter="{{tag}}">{{tag | replace:"_"," "}}</button>
                 {% endfor %}
             </div>
             <br>
@@ -31,9 +32,9 @@ carousel:
             {% for project in site.posts%}
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {% for tag in project.tags%} {{tag}} {% endfor%}">
 
-                <div class="view overlay h-100">
+                <div class="view overlay h-100 ">
                     <a href="{{project.url}}">
-                        <img src="{{project.assetLoco}}/{{project.coverPic}}" class="img-fluid"  alt="{{project.title}}">
+                        <img src = "images/static/seb.png" data-echo="{{project.assetLoco}}/{{project.coverPic}}" class="img-fluid"  alt="{{project.title}}">
                         <div class="mask flex-center rgba-black-light">
                             <h1 class="white-text font-weight-bold text-center">{{project.title}}</h1>
                         </div>
@@ -53,3 +54,4 @@ carousel:
 
     </main>
     <!--Main Layout-->
+    {% include lazyload.html %}
